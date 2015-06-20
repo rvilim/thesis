@@ -2,12 +2,11 @@
 
 \chapter{The Local Rossby Number}
 \label{chap:rol}
-One factor which makes dynamos difficult to understand is the large number of control parameters that are required to specify a solution to the governing equations. This is particularly troubling because the properties of a dynamo is dependent on the values of these control parameters. Unfortunately for numerical reasons dynamo models must be run in a parameter regime for which none of the control parameters is realistic.
+One factor which makes dynamos difficult to understand is the large number of control parameters that are required to specify a solution to the governing equations. This is particularly troubling because the properties of a dynamo are dependent on the values of these control parameters. Unfortunately, for numerical reasons, dynamo models must be run in a parameter regime for which most of the control parameters are not realistic.
 
 \citet{christensen06scaling} developed a scaling law concerning planetary dynamos which has proved to be useful in the prediction of the bulk properties of a dynamo as a function of its control parameters. The Rossby number is normally defined as the ratio of the inertial force to the Coriolis force, from equation \ref{eq:navierstokesgeneralcorlor} this is
 \begin{align*}
-Ro&=\frac{\rho \mbf{u}\cdot\nabla\mbf{u}}{2\rho\mbf{\Omega}\times\mbf{u}}\\
-&\approx\frac{U}{2\Omega L}\\
+Ro&=\frac{\left|\rho \mbf{u}\cdot\nabla\mbf{u}\right|}{\left|2\rho\mbf{\Omega}\times\mbf{u}\right|}\\
 &\approx\frac{U}{\Omega r_o}.
 \end{align*}
 \citet{christensen06scaling} noted that while the inertial term depends on the length scale of the flow, the Coriolis term does not. They posited that a better measure of the role rotation plays in a given flow may be a Rossby number which depends on the characteristic length scale of the flow, rather than the characteristic length scale of the container. They defined this length scale as
@@ -19,7 +18,7 @@ Where $E_{kin}$ is the kinetic energy, defined as
 \begin{equation}
 E_{kin}=\frac{4 Ro_m^2}{\left(1-r_{io}\right)^{5}}\frac{1}{2}\int_{V}\left(\mbf{u}\cdot\mbf{u}\right)dV
 \end{equation}
-using the non-dimensionalisation of \citet{kuangandbloxham1999}. Combining these we get
+using the non-dimensionalisation of \citet{kuangandbloxham1999}. The factor in front of the integral results from converting the non-dimensionalisation from those used in \citet{christensen06scaling}. Combining these we get
 \begin{equation}
 \bar{\ell}_{u}=\left(1-r_{io}\right)^{3}\frac{\sum l\left\langle\mbf{u}_{l}\cdot\mbf{u}_{l}\right\rangle}{\int_{V}\left(\mbf{u}\cdot\mbf{u}\right)dV}.
 \end{equation}
@@ -31,7 +30,7 @@ Ro_{l}=Ro\frac{\bar{\ell}_{u}}{\pi}.
 
 \citet{christensen06scaling} then noted that the dipole dominance of the poloidal magnetic field depended strongly on the local Rossby number. They showed that dynamo models which had $Ro_{l}\leq 0.12$ had magnetic fields that were predominantly dipolar, while models with $Ro_{l}>0.12$ generated multipolar magnetic fields. This sharp transition is clear if the dipole dominance of the observable magnetic field ($f_{dip}$) is plotted against the local Rossby number (figure \ref{fig:rolfdip}). Using angle brackets to denote a time average, $f_{dip}$ is defined as
 \begin{equation}
-f_{dip}=\left\langle\frac{ \int_S \sqrt{\mbf{B}_{l=1}\cdot\mbf{B}_{l=1}} }{\sum_{l=1}^{12} \mbf{B}_{l}\cdot\mbf{B}_{l}}\biggr\rvert_{r=r_{o}}\right\rangle
+f_{dip}=\left\langle\frac{ \int_S \sqrt{\mbf{B}_{l=1}\cdot\mbf{B}_{l=1}} }{\sum_{l=1}^{12} \int_S  \sqrt{\mbf{B}_{l}\cdot\mbf{B}_{l}}}\biggr\rvert_{r=r_{o}}\right\rangle
 \end{equation}
 which is the time average ratio of the r.m.s. amplitude of the dipole field to the r.m.s. amplitude of the field in the first 12 degrees.
 \begin{figure}

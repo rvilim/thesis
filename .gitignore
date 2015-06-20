@@ -1,0 +1,9 @@
+*.aux
+thesis.aux
+thesis.bbl
+thesis.log
+thesis.out
+thesis.pdf
+thesis.synctex.gz
+thesis.toc
+Other\ Peoples\*
