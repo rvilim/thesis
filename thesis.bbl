@@ -1,0 +1,746 @@
+\begin{thebibliography}{114}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Acuna et~al.(1999)Acuna, Connerney, Lin, Mitchell, Carlson, McFadden,
+  Anderson, R{\`e}me, Mazelle, Vignes, et~al.]{acuna1999}
+MH~Acuna, JEP Connerney, RP~Lin, D~Mitchell, CW~Carlson, J~McFadden,
+  KA~Anderson, H~R{\`e}me, C~Mazelle, D~Vignes, et~al.
+\newblock Global distribution of crustal magnetization discovered by the mars
+  global surveyor mag/er experiment.
+\newblock \emph{Science}, 284\penalty0 (5415):\penalty0 790--793, 1999.
+
+\bibitem[Adams et~al.(2008)Adams, Seager, and Elkins-Tanton]{adams2008}
+ER~Adams, S~Seager, and L~Elkins-Tanton.
+\newblock Ocean planet or thick atmosphere: on the mass-radius relationship for
+  solid exoplanets with massive atmospheres.
+\newblock \emph{The Astrophysical Journal}, 673\penalty0 (2):\penalty0 1160,
+  2008.
+
+\bibitem[Aharonson et~al.(2004)Aharonson, Zuber, and Solomon]{Aharonson2004}
+Oded Aharonson, Maria~T. Zuber, and Sean~C. Solomon.
+\newblock {Crustal remanence in an internally magnetized non-uniform shell: a
+  possible source for Mercury{\textquoteright}s magnetic field?}
+\newblock \emph{Earth and Planetary Science Letters}, 218\penalty0
+  (3-4):\penalty0 261--268, 2004.
+
+\bibitem[Anderson et~al.(2012)Anderson, Johnson, Korth, Winslow, Borovsky,
+  Purucker, Slavin, Solomon, Zuber, and McNutt]{anderson2012}
+Brian~J Anderson, Catherine~L Johnson, Haje Korth, Reka~M Winslow, Joseph~E
+  Borovsky, Michael~E Purucker, James~A Slavin, Sean~C Solomon, Maria~T Zuber,
+  and Ralph~L McNutt.
+\newblock Low-degree structure in mercury's planetary magnetic field.
+\newblock \emph{Journal of Geophysical Research: Planets (1991--2012)},
+  117\penalty0 (E12), 2012.
+
+\bibitem[Ashcroft and Mermin(2011)]{ashcroftandmermin}
+N.W. Ashcroft and N.D. Mermin.
+\newblock \emph{Solid State Physics}.
+\newblock Cengage Learning, 2011.
+\newblock ISBN 9788131500521.
+
+\bibitem[Aubert et~al.(2009)Aubert, Labrosse, and Poitou]{aubert2009}
+Julien Aubert, St{\'e}phane Labrosse, and Charles Poitou.
+\newblock Modelling the palaeo-evolution of the geodynamo.
+\newblock \emph{Geophysical Journal International}, 179\penalty0 (3):\penalty0
+  1414--1428, 2009.
+
+\bibitem[Backus(1958)]{BackusBound}
+G.E. Backus.
+\newblock A class of self-sustaining dissipative spherical dynamos.
+\newblock \emph{Annals of Physics}, 4:\penalty0 372--447, 1958.
+
+\bibitem[Bloxham and Jackson(1991)]{bloxham1991}
+Jeremy Bloxham and Andrew Jackson.
+\newblock Fluid flow near the surface of earth's outer core.
+\newblock \emph{Reviews of Geophysics}, 29\penalty0 (1):\penalty0 97--120,
+  1991.
+
+\bibitem[Braginsky(2006)]{Braginsky2006}
+S.~Braginsky.
+\newblock {Formation of the stratified ocean of the core}.
+\newblock \emph{Earth and Planetary Science Letters}, pages 650--656, 2006.
+
+\bibitem[Braginsky and Roberts(1995)]{Braginsky1995}
+S.~Braginsky and Paul~H. Roberts.
+\newblock {Equations governing convection in Earth's core and the geodynamo}.
+\newblock \emph{Geophysical and Astrophysical Fluid Dynamics}, pages 1--97,
+  1995.
+
+\bibitem[Breuer et~al.(2007)Breuer, Hauck~II, Buske, Pauer, and
+  Spohn]{brueur07}
+Doris Breuer, Steven~A. Hauck~II, Monika Buske, Martin Pauer, and Tilman Spohn.
+\newblock {Interior Evolution of Mercury}.
+\newblock \emph{Space Science Reviews}, 132\penalty0 (2-4):\penalty0 229--260,
+  2007.
+
+\bibitem[Breuer et~al.(2010)Breuer, Labrosse, and Spohn]{breuer2010}
+Doris Breuer, Stephane Labrosse, and Tilman Spohn.
+\newblock Thermal evolution and magnetic field generation in terrestrial
+  planets and satellites.
+\newblock \emph{Space science reviews}, 152\penalty0 (1-4):\penalty0 449--500,
+  2010.
+
+\bibitem[Bullard and Gellman(1954)]{bullard1954}
+E~Bullard and H~Gellman.
+\newblock {Homogeneous Dynamos and Terrestrial Magnetism}.
+\newblock \emph{Philosophical Transactions of the Royal Society}, 247:\penalty0
+  213--278, 1954.
+
+\bibitem[Busse(1975)]{busse1975}
+FH~Busse.
+\newblock A necessary condition for the geodynamo.
+\newblock \emph{Journal of Geophysical Research}, 80\penalty0 (2):\penalty0
+  278--280, 1975.
+
+\bibitem[Cao et~al.(2011)Cao, Russell, Christensen, Dougherty, and
+  Burton]{cao2011}
+Hao Cao, Christopher~T Russell, Ulrich~R Christensen, Michele~K Dougherty, and
+  Marcia~E Burton.
+\newblock Saturn's very axisymmetric magnetic field: No detectable secular
+  variation or tilt.
+\newblock \emph{Earth and Planetary Science Letters}, 304\penalty0
+  (1):\penalty0 22--28, 2011.
+
+\bibitem[Cao et~al.(2014)Cao, Aurnou, Wicht, Dietrich, Soderlund, and
+  Russell]{cao2014}
+Hao Cao, Jonathan~M Aurnou, Johannes Wicht, Wieland Dietrich, Krista~M
+  Soderlund, and Christopher~T Russell.
+\newblock A dynamo explanation for mercury's anomalous magnetic field.
+\newblock \emph{Geophysical Research Letters}, 2014.
+
+\bibitem[Chan et~al.(2008)Chan, Zhang, Li, and Liao]{chan2008}
+Kit~H Chan, Keke Zhang, Ligang Li, and Xinhao Liao.
+\newblock On the effect of an electrically heterogeneous lower mantle on
+  planetary dynamos.
+\newblock \emph{Physics of the Earth and Planetary Interiors}, 169\penalty0
+  (1):\penalty0 204--210, 2008.
+
+\bibitem[Chen et~al.(2008)Chen, Gao, Leinenweber, Wang, Sanehira, and
+  Li]{chenetal2008}
+Bin Chen, Lili Gao, Kurt Leinenweber, Yanbin Wang, Takeshi Sanehira, and Jie
+  Li.
+\newblock { In situ investigation of high-pressure melting behavior in the Fe-S
+  system using synchrotron X-ray radiography}.
+\newblock \emph{High Pressure Research}, 28\penalty0 (3):\penalty0 315--326,
+  2008.
+
+\bibitem[Christensen et~al.(1999)Christensen, Olson, and
+  Glatzmaier]{christensen1999}
+U~Christensen, P~Olson, and GA~Glatzmaier.
+\newblock Numerical modelling of the geodynamo: a systematic parameter study.
+\newblock \emph{Geophysical Journal International}, 138\penalty0 (2):\penalty0
+  393--409, 1999.
+
+\bibitem[Christensen(2006)]{christensen06}
+Ulrich~R Christensen.
+\newblock {A deep dynamo generating Mercury's magnetic field}.
+\newblock \emph{Nature}, pages 1056--1058, 2006.
+
+\bibitem[Christensen and Aubert(2006)]{christensen06scaling}
+Ulrich~R. Christensen and Julien Aubert.
+\newblock {Scaling properties of convection-driven dynamos in rotating
+  spherical shells and application to planetary magnetic fields}.
+\newblock \emph{Geophysical Journal International}, 2006.
+
+\bibitem[Christensen and Tilgner(2004)]{christensen2004}
+Ulrich~R Christensen and Andreas Tilgner.
+\newblock Power requirement of the geodynamo from ohmic losses in numerical and
+  laboratory dynamos.
+\newblock \emph{Nature}, 429\penalty0 (6988):\penalty0 169--171, 2004.
+
+\bibitem[Christensen et~al.(2009)Christensen, Schmitt, and
+  Rempel]{christensen2009review}
+UR~Christensen, D~Schmitt, and M~Rempel.
+\newblock Planetary dynamos from a solar perspective.
+\newblock \emph{Space science reviews}, 144\penalty0 (1-4):\penalty0 105--126,
+  2009.
+
+\bibitem[Cohen et~al.(2009)Cohen, Drake, Kashyap, Saar, Sokolov, Manchester,
+  Hansen, and Gombosi]{cohen2009}
+O~Cohen, JJ~Drake, VL~Kashyap, SH~Saar, IV~Sokolov, WB~Manchester, KC~Hansen,
+  and TI~Gombosi.
+\newblock Interactions of the magnetospheres of stars and close-in giant
+  planets.
+\newblock \emph{The Astrophysical Journal Letters}, 704\penalty0 (2):\penalty0
+  L85, 2009.
+
+\bibitem[Connerney(2007)]{connerney2007}
+J.~E.~P. Connerney.
+\newblock Planetary magnetism.
+\newblock \emph{Treatise on Geophysics}, 10:\penalty0 243--280, 2007.
+
+\bibitem[Connerney(1992)]{connerney1992}
+JEP Connerney.
+\newblock Doing more with jupiter’s magnetic field.
+\newblock In \emph{Planetary Radio Emissions III}, volume~1, page~13, 1992.
+
+\bibitem[Conzelmann and Spohn(1999)]{conzelmann99}
+V~Conzelmann and T~Spohn.
+\newblock New thermal evolution models suggesting a hot, partially molten
+  mercurian interior.
+\newblock In \emph{Bulletin of the American Astronomical Society}, volume~31,
+  page 1102, 1999.
+
+\bibitem[Courant et~al.(1967)Courant, Friedrichs, and Lewy]{courant1967}
+Richard Courant, Kurt Friedrichs, and Hans Lewy.
+\newblock On the partial difference equations of mathematical physics.
+\newblock \emph{IBM journal of Research and Development}, 11\penalty0
+  (2):\penalty0 215--234, 1967.
+
+\bibitem[Crank and Nicolson(1947)]{crank1947}
+John Crank and Phyllis Nicolson.
+\newblock A practical method for numerical evaluation of solutions of partial
+  differential equations of the heat-conduction type.
+\newblock \emph{Mathematical Proceedings of the Cambridge Philosophical
+  Society}, 43\penalty0 (1):\penalty0 50--67, 1947.
+
+\bibitem[Dharmaraj(2013)]{dharmaraj2013}
+Girija Dharmaraj.
+\newblock \emph{Planetary Dynamo Models: Generation Mechanisms and the
+  Influence of Boundary Conditions}.
+\newblock PhD thesis, University of Toronto, 2013.
+
+\bibitem[Driscoll and Olson(2011)]{driscoll2011}
+Peter Driscoll and Peter Olson.
+\newblock Optimal dynamos in the cores of terrestrial exoplanets: Magnetic
+  field generation and detectability.
+\newblock \emph{Icarus}, 213\penalty0 (1):\penalty0 12--23, 2011.
+
+\bibitem[Dumberry and Bloxham(2003)]{dumberry2003}
+Mathieu Dumberry and Jeremy Bloxham.
+\newblock Torque balance, taylor’s constraint and torsional oscillations in a
+  numerical model of the geodynamo.
+\newblock \emph{Physics of the Earth and Planetary Interiors}, 140\penalty0
+  (1):\penalty0 29--51, 2003.
+
+\bibitem[Dumberry and Rivoldini(2015)]{dumberry2015}
+Mathieu Dumberry and Attilio Rivoldini.
+\newblock Mercury’s inner core size and core-crystallization regime.
+\newblock \emph{Icarus}, 248:\penalty0 254--268, 2015.
+
+\bibitem[Elkins-Tanton and Seager(2008{\natexlab{a}})]{elkins2008}
+Linda~T Elkins-Tanton and Sara Seager.
+\newblock Ranges of atmospheric mass and composition of super-earth exoplanets.
+\newblock \emph{The Astrophysical Journal}, 685\penalty0 (2):\penalty0 1237,
+  2008{\natexlab{a}}.
+
+\bibitem[Elkins-Tanton and Seager(2008{\natexlab{b}})]{elkins2008coreless}
+Linda~T Elkins-Tanton and Sara Seager.
+\newblock Coreless terrestrial exoplanets.
+\newblock \emph{The Astrophysical Journal}, 688\penalty0 (1):\penalty0 628,
+  2008{\natexlab{b}}.
+
+\bibitem[Farrell et~al.(1999)Farrell, Desch, and Zarka]{farrell1999}
+WM~Farrell, MD~Desch, and P~Zarka.
+\newblock On the possibility of coherent cyclotron emission from extrasolar
+  planets.
+\newblock \emph{Journal of Geophysical Research: Planets (1991--2012)},
+  104\penalty0 (E6):\penalty0 14025--14032, 1999.
+
+\bibitem[Finlay et~al.(2010)Finlay, Maus, Beggan, Bondar, Chambodut, Chernova,
+  Chulliat, Golovkov, Hamilton, Hamoudi, et~al.]{igrf11}
+CC~Finlay, S~Maus, CD~Beggan, TN~Bondar, A~Chambodut, TA~Chernova, A~Chulliat,
+  VP~Golovkov, B~Hamilton, M~Hamoudi, et~al.
+\newblock International geomagnetic reference field: the eleventh generation.
+\newblock \emph{Geophysical Journal International}, 183\penalty0 (3):\penalty0
+  1216--1230, 2010.
+
+\bibitem[Finlay and Jackson(2003)]{finlay2003}
+Christopher~C Finlay and Andrew Jackson.
+\newblock Equatorially dominated magnetic field change at the surface of
+  earth's core.
+\newblock \emph{Science}, 300\penalty0 (5628):\penalty0 2084--2086, 2003.
+
+\bibitem[Glassmeier et~al.(2007)Glassmeier, Auster, and
+  Motschmann]{glassmaier2007}
+Karl-Heinz Glassmeier, Hans-Ulrich Auster, and Uwe Motschmann.
+\newblock A feedback dynamo generating mercury's magnetic field.
+\newblock \emph{Geophysical Research Letters}, 34\penalty0 (22), 2007.
+
+\bibitem[Grie{\ss}meier et~al.(2007)Grie{\ss}meier, Zarka, and
+  Spreeuw]{griessmeier2007}
+J-M Grie{\ss}meier, P~Zarka, and H~Spreeuw.
+\newblock Predicting low-frequency radio fluxes of known extrasolar planets.
+\newblock \emph{Astronomy \& Astrophysics}, 475\penalty0 (1):\penalty0
+  359--368, 2007.
+
+\bibitem[Grote et~al.(2000)Grote, Busse, and Tilgner]{grote2000}
+E~Grote, FH~Busse, and A~Tilgner.
+\newblock Effects of hyperdiffusivities on dynamo simulations.
+\newblock \emph{Geophysical research letters}, 27\penalty0 (13):\penalty0
+  2001--2004, 2000.
+
+\bibitem[Gubbins and Roberts(1987)]{gubbins1987}
+D.~Gubbins and P.H. Roberts.
+\newblock Magnetohydrodynamics of the earth's core.
+\newblock In J.A. Jacobs, editor, \emph{Geomagnetism}, volume 1--183, page~64.
+  Academic Press, 1987.
+
+\bibitem[Gubbins and Herrero-Bervera(2007)]{gubbins2007}
+David Gubbins and Emilio Herrero-Bervera.
+\newblock \emph{Encyclopedia of geomagnetism and paleomagnetism}.
+\newblock Springer, 2007.
+
+\bibitem[Hauck et~al.(2006)Hauck, Aurnou, and Dombard]{hauck06}
+Steven~A Hauck, Jonathan~M Aurnou, and Andrew~J Dombard.
+\newblock Sulfur's impact on core evolution and magnetic field generation on
+  ganymede.
+\newblock \emph{Journal of Geophysical Research: Planets}, 111\penalty0 (E9),
+  2006.
+
+\bibitem[Hauck et~al.(2013)Hauck, Margot, Solomon, Phillips, Johnson, Lemoine,
+  Mazarico, McCoy, Padovan, Peale, et~al.]{hauck2013}
+Steven~A Hauck, Jean-Luc Margot, Sean~C Solomon, Roger~J Phillips, Catherine~L
+  Johnson, Frank~G Lemoine, Erwan Mazarico, Timothy~J McCoy, Sebastiano
+  Padovan, Stanton~J Peale, et~al.
+\newblock The curious case of mercury's internal structure.
+\newblock \emph{Journal of Geophysical Research: Planets}, 118\penalty0
+  (6):\penalty0 1204--1220, 2013.
+
+\bibitem[Hauck~II et~al.(2004)Hauck~II, Dombard, Phillips, and
+  Solomon]{hauck04}
+Steven~A Hauck~II, Andrew~J Dombard, Roger~J Phillips, and Sean~C Solomon.
+\newblock Internal and tectonic evolution of mercury.
+\newblock \emph{Earth and Planetary Science Letters}, 222\penalty0
+  (3):\penalty0 713--728, 2004.
+
+\bibitem[Heimpel et~al.(2005{\natexlab{a}})Heimpel, Aurnou, Al-Shamali, and
+  Gomez~Perez]{heimpel2005}
+MH~Heimpel, JM~Aurnou, FM~Al-Shamali, and N~Gomez~Perez.
+\newblock A numerical study of dynamo action as a function of spherical shell
+  geometry.
+\newblock \emph{Earth and Planetary Science Letters}, 236\penalty0
+  (1):\penalty0 542--557, 2005{\natexlab{a}}.
+
+\bibitem[Heimpel et~al.(2005{\natexlab{b}})Heimpel, Aurnou, Al-Shamali, and
+  Gomez~Perez]{heimpelandaurnou2005}
+MH~Heimpel, JM~Aurnou, FM~Al-Shamali, and N~Gomez~Perez.
+\newblock A numerical study of dynamo action as a function of spherical shell
+  geometry.
+\newblock \emph{Earth and Planetary Science Letters}, 236\penalty0
+  (1):\penalty0 542--557, 2005{\natexlab{b}}.
+
+\bibitem[Heyner et~al.(2010)Heyner, Schmitt, Wicht, Glassmeier, Korth, and
+  Motschmann]{heyner2010}
+D~Heyner, D~Schmitt, J~Wicht, K-H Glassmeier, H~Korth, and U~Motschmann.
+\newblock The initial temporal evolution of a feedback dynamo for mercury.
+\newblock \emph{Geophysical and Astrophysical Fluid Dynamics}, 104\penalty0
+  (4):\penalty0 419--429, 2010.
+
+\bibitem[Heyner et~al.(2011)Heyner, Wicht, G{\'o}mez-P{\'e}rez, Schmitt,
+  Auster, and Glassmeier]{heyner2011}
+Daniel Heyner, Johannes Wicht, Natalia G{\'o}mez-P{\'e}rez, Dieter Schmitt,
+  Hans-Ulrich Auster, and Karl-Heinz Glassmeier.
+\newblock Evidence from numerical experiments for a feedback dynamo generating
+  mercury’s magnetic field.
+\newblock \emph{Science}, 334\penalty0 (6063):\penalty0 1690--1693, 2011.
+
+\bibitem[Holme and Bloxham(1996)]{holme1996}
+Richard Holme and Jeremy Bloxham.
+\newblock The magnetic fields of uranus and neptune: Methods and models.
+\newblock \emph{Journal of Geophysical Research: Planets (1991--2012)},
+  101\penalty0 (E1):\penalty0 2177--2200, 1996.
+
+\bibitem[Jackson(1999)]{jackson1999}
+John~D. Jackson.
+\newblock \emph{Classical electrodynamics}.
+\newblock Wiley New York etc., 3 edition, 1999.
+
+\bibitem[Jiang and Kuang(2008)]{jiang2008}
+Weiyuan Jiang and Weijia Kuang.
+\newblock An mpi-based mosst core dynamics model.
+\newblock \emph{Physics of the Earth and Planetary Interiors}, 170\penalty0
+  (1):\penalty0 46--51, 2008.
+
+\bibitem[Jones(2011)]{jones2011}
+Chris~A Jones.
+\newblock Planetary magnetic fields and fluid dynamos.
+\newblock \emph{Annual Review of Fluid Mechanics}, 43:\penalty0 583--614, 2011.
+
+\bibitem[Karato(2011)]{karato2011}
+Shun-ichiro Karato.
+\newblock Rheological structure of the mantle of a super-earth: Some insights
+  from mineral physics.
+\newblock \emph{Icarus}, 212\penalty0 (1):\penalty0 14--23, 2011.
+
+\bibitem[Kaula(1968)]{kaula1968}
+William~M. Kaula.
+\newblock \emph{An Introduction to Planetary Physics: The Terrestrial Planets},
+  volume~1 of \emph{Space Science Text Series}.
+\newblock John Wiley \& Sons Inc, 1968.
+
+\bibitem[Kivelson et~al.(1996)Kivelson, Khurana, Russell, Walker, Warnecke,
+  Coroniti, Polanskey, Southwood, and Schubert]{kivelson1996}
+MG~Kivelson, KK~Khurana, CT~Russell, RJ~Walker, J~Warnecke, FV~Coroniti,
+  C~Polanskey, DJ~Southwood, and G~Schubert.
+\newblock Discovery of ganymede's magnetic field by the galileo spacecraft.
+\newblock \emph{Nature}, 384\penalty0 (6609):\penalty0 537--541, 1996.
+
+\bibitem[Kuang and Bloxham(1997)]{kuangandbloxham1997}
+Weijia Kuang and Jeremy Bloxham.
+\newblock An earth-like numerical dynamo model.
+\newblock \emph{Nature}, 389\penalty0 (6649):\penalty0 371--374, 1997.
+
+\bibitem[Kuang and Bloxham(1999)]{kuangandbloxham1999}
+Weijia Kuang and Jeremy Bloxham.
+\newblock Numerical modeling of magnetohydrodynamic convection in a rapidly
+  rotating spherical shell: weak and strong field dynamo action.
+\newblock \emph{Journal of Computational Physics}, 153\penalty0 (1):\penalty0
+  51--81, 1999.
+
+\bibitem[Lecacheux(1991)]{lecacheux1991}
+Alain Lecacheux.
+\newblock On the feasibility of extra-solar planetary detection at very low
+  ratio frequencies.
+\newblock In \emph{Bioastronomy The Search for Extraterrestial Life \textemdash
+  The Exploration Broadens}, pages 21--30. Springer, 1991.
+
+\bibitem[Lele(1992)]{lele1992}
+Sanjiva~K Lele.
+\newblock Compact finite difference schemes with spectral-like resolution.
+\newblock \emph{Journal of computational physics}, 103\penalty0 (1):\penalty0
+  16--42, 1992.
+
+\bibitem[Lenardic and Crowley(2012)]{lenardic2012}
+A~Lenardic and JW~Crowley.
+\newblock On the notion of well-defined tectonic regimes for terrestrial
+  planets in this solar system and others.
+\newblock \emph{The Astrophysical Journal}, 755\penalty0 (2):\penalty0 132,
+  2012.
+
+\bibitem[Levy(1979)]{levy1979}
+EH~Levy.
+\newblock Planetary dynamo amplification of ambient magnetic fields.
+\newblock In \emph{Lunar and Planetary Science Conference Proceedings},
+  volume~10, pages 2335--2342, 1979.
+
+\bibitem[Manglik et~al.(2010)Manglik, Wicht, and Christensen]{manglik2010}
+Ajay Manglik, Johannes Wicht, and Ulrich~R Christensen.
+\newblock A dynamo model with double diffusive convection for mercury's core.
+\newblock \emph{Earth and Planetary Science Letters}, 289\penalty0
+  (3):\penalty0 619--628, 2010.
+
+\bibitem[Margot et~al.(2007)Margot, Peale, Jurgens, Slade, and
+  Holin]{margot2007}
+Jean-Luc Margot, SJ~Peale, RF~Jurgens, MA~Slade, and IV~Holin.
+\newblock Large longitude libration of mercury reveals a molten core.
+\newblock \emph{Science}, 316\penalty0 (5825):\penalty0 710--714, 2007.
+
+\bibitem[Margot et~al.(2012)Margot, Peale, Solomon, Hauck, Ghigo, Jurgens,
+  Yseboodt, Giorgini, Padovan, and Campbell]{margot2012}
+Jean-Luc Margot, Stanton~J Peale, Sean~C Solomon, Steven~A Hauck, Frank~D
+  Ghigo, Raymond~F Jurgens, Marie Yseboodt, Jon~D Giorgini, Sebastiano Padovan,
+  and Donald~B Campbell.
+\newblock Mercury's moment of inertia from spin and gravity data.
+\newblock \emph{Journal of Geophysical Research: Planets}, 117\penalty0 (E12),
+  2012.
+
+\bibitem[Mayor et~al.(2011)Mayor, Marmier, Lovis, Udry, S{\'e}gransan, Pepe,
+  Benz, Bertaux, Bouchy, Dumusque, Curto, Mordasini, Queloz, and
+  Santos]{mayor2011harps}
+Michel Mayor, M~Marmier, Ch~Lovis, S~Udry, D~S{\'e}gransan, F~Pepe, W~Benz, J-L
+  Bertaux, F~Bouchy, X~Dumusque, G.~Lo Curto, C.~Mordasini, D.~Queloz, and N.C.
+  Santos.
+\newblock The harps search for southern extra-solar planets xxxiv. occurrence,
+  mass distribution and orbital properties of super-earths and neptune-mass
+  planets.
+\newblock \emph{arXiv preprint arXiv:1109.2497}, 2011.
+
+\bibitem[Moffatt(1978)]{moffatt1978}
+Henry~K Moffatt.
+\newblock \emph{Field Generation in Electrically Conducting Fluids}.
+\newblock Cambridge University Press, 1978.
+
+\bibitem[Nellis(2010)]{nellis2010}
+WJ~Nellis.
+\newblock Al 2 o 3 as a metallic glass at 300 gpa.
+\newblock \emph{Physical Review B}, 82\penalty0 (9):\penalty0
+  092101--1--092101--4, 2010.
+
+\bibitem[Ness et~al.(1976)Ness, Behannon, Lepping, and Whang]{nessmariner10}
+Norman~F Ness, KW~Behannon, RP~Lepping, and YC~Whang.
+\newblock Observations of mercury's magnetic field.
+\newblock \emph{Icarus}, 28\penalty0 (4):\penalty0 479--488, 1976.
+
+\bibitem[Nittler et~al.(2011)Nittler, Starr, Weider, McCoy, Boynton, Ebel,
+  Ernst, Evans, Goldsten, Hamara, et~al.]{nittler2011}
+Larry~R Nittler, Richard~D Starr, Shoshana~Z Weider, Timothy~J McCoy, William~V
+  Boynton, Denton~S Ebel, Carolyn~M Ernst, Larry~G Evans, John~O Goldsten,
+  David~K Hamara, et~al.
+\newblock The major-element composition of mercury’s surface from messenger
+  x-ray spectrometry.
+\newblock \emph{Science}, 333\penalty0 (6051):\penalty0 1847--1850, 2011.
+
+\bibitem[Ohta et~al.(2012)Ohta, Cohen, Hirose, Haule, Shimizu, and
+  Ohishi]{ohta2012}
+Kenji Ohta, Ronald~E Cohen, Kei Hirose, Kristjan Haule, Katsuya Shimizu, and
+  Yasuo Ohishi.
+\newblock Experimental and theoretical evidence for pressure-induced
+  metallization in feo with rocksalt-type structure.
+\newblock \emph{Physical review letters}, 108\penalty0 (2):\penalty0 026403,
+  2012.
+
+\bibitem[Olson and Christensen(2006)]{OlsonandChristensen2006}
+Peter Olson and Ulrich~R. Christensen.
+\newblock Dipole moment scaling for convection-driven planetary dynamos.
+\newblock \emph{Earth and Planetary Science Letters}, 250:\penalty0 561--571,
+  2006.
+
+\bibitem[O'neill and Lenardic(2007)]{oneill2007}
+C~O'neill and A~Lenardic.
+\newblock Geological consequences of super-sized earths.
+\newblock \emph{Geophysical Research Letters}, 34\penalty0 (19), 2007.
+
+\bibitem[Peale(1972)]{peale1972}
+SJ~Peale.
+\newblock Determination of parameters related to the interior of mercury.
+\newblock \emph{Icarus}, 17\penalty0 (1):\penalty0 168--173, 1972.
+
+\bibitem[Peale(1969)]{peale1969}
+Stanton~J Peale.
+\newblock Generalized cassini's laws.
+\newblock \emph{The Astronomical Journal}, 74:\penalty0 483, 1969.
+
+\bibitem[Proctor(1977)]{ProctorBound}
+Michael~R.E. Proctor.
+\newblock On backus' necessary condition for dynamo action in a conducting
+  sphere.
+\newblock \emph{Geophysical and Astrophysical Fluid Dynamics}, 9:\penalty0
+  89--93, 1977.
+
+\bibitem[Proudman(1916)]{proudman1916}
+J.~Proudman.
+\newblock On the motion of solids in a liquid possessing vorticity.
+\newblock \emph{Proceedings of the Royal Society of London. Series A},
+  92\penalty0 (642):\penalty0 408--424, 1916.
+
+\bibitem[Rein(2015)]{rein2015}
+Hanno Rein.
+\newblock The open exoplanet catalogue.
+\newblock \url{https://github.com/OpenExoplanetCatalogue/oec_tables}, 2015.
+
+\bibitem[Rivoldini et~al.(2009)Rivoldini, Van~Hoolst, and
+  Verhoeven]{rivoldini09}
+A~Rivoldini, Tim Van~Hoolst, and O~Verhoeven.
+\newblock The interior structure of mercury and its core sulfur content.
+\newblock \emph{Icarus}, 201\penalty0 (1):\penalty0 12--30, 2009.
+
+\bibitem[Rivoldini and Van~Hoolst(2013)]{rivoldini2013}
+Attilio Rivoldini and Tim Van~Hoolst.
+\newblock The interior structure of mercury constrained by the low-degree
+  gravity field and the rotation of mercury.
+\newblock \emph{Earth and Planetary Science Letters}, 377:\penalty0 62--72,
+  2013.
+
+\bibitem[Roberts and Glatzmaier(2001)]{roberts2001}
+Paul~H Roberts and Gary~A Glatzmaier.
+\newblock The geodynamo, past, present and future.
+\newblock \emph{Geophysical \& Astrophysical Fluid Dynamics}, 94\penalty0
+  (1-2):\penalty0 47--84, 2001.
+
+\bibitem[Runcorn(1975)]{runcorn1976}
+S.~Runcorn.
+\newblock An ancient lunar magnetic field.
+\newblock \emph{Nature}, 253:\penalty0 701--703, 1975.
+
+\bibitem[Russell et~al.(1980)Russell, Elphic, and Slavin]{russell1980}
+CT~Russell, RC~Elphic, and JA~Slavin.
+\newblock Limits on the possible intrinsic magnetic field of venus.
+\newblock \emph{Journal of Geophysical Research: Space Physics (1978--2012)},
+  85\penalty0 (A13):\penalty0 8319--8332, 1980.
+
+\bibitem[Sakuraba and Roberts(2009)]{sakuraba2009}
+Ataru Sakuraba and Paul~H Roberts.
+\newblock Generation of a strong magnetic field using uniform heat flux at the
+  surface of the core.
+\newblock \emph{Nature Geoscience}, 2\penalty0 (11):\penalty0 802--805, 2009.
+
+\bibitem[Sarson et~al.(1997)Sarson, Jones, Zhang, and Schubert]{sarson97}
+GR~Sarson, CA~Jones, K~Zhang, and G~Schubert.
+\newblock Magnetoconvection dynamos and the magnetic fields of io and ganymede.
+\newblock \emph{Science}, 276\penalty0 (5315):\penalty0 1106--1108, 1997.
+
+\bibitem[Schubert et~al.(1988)Schubert, Ross, Stevenson, and
+  Spohn]{schubertandross88}
+G~Schubert, MN~Ross, DJ~Stevenson, and T~Spohn.
+\newblock Mercury’s thermal history and the generation of its magnetic field.
+\newblock \emph{Mercury}, pages 429--460, 1988.
+
+\bibitem[Seager et~al.(2007)Seager, Kuchner, Hier-Majumder, and
+  Militzer]{seager2007}
+S~Seager, M~Kuchner, CA~Hier-Majumder, and B~Militzer.
+\newblock Mass-radius relationships for solid exoplanets.
+\newblock \emph{The Astrophysical Journal}, 669\penalty0 (2):\penalty0 1279,
+  2007.
+
+\bibitem[Siegfried~II and Solomon(1974)]{siegfried1974}
+Robert~W Siegfried~II and Sean~C Solomon.
+\newblock Mercury: Internal structure and thermal evolution.
+\newblock \emph{Icarus}, 23\penalty0 (2):\penalty0 192--205, 1974.
+
+\bibitem[Smith et~al.(2012)Smith, Zuber, Phillips, Solomon, Hauck, Lemoine,
+  Mazarico, Neumann, Peale, Margot, et~al.]{smith2012}
+David~E Smith, Maria~T Zuber, Roger~J Phillips, Sean~C Solomon, Steven~A Hauck,
+  Frank~G Lemoine, Erwan Mazarico, Gregory~A Neumann, Stanton~J Peale, Jean-Luc
+  Margot, et~al.
+\newblock Gravity field and internal structure of mercury from messenger.
+\newblock \emph{Science}, 336\penalty0 (6078):\penalty0 214--217, 2012.
+
+\bibitem[Smith et~al.(1963)Smith, Davis, Coleman, and Sonnet]{smith1963}
+E.J. Smith, L.~Davis, P.J. Coleman, and C.P. Sonnet.
+\newblock Mariner ii: Preliminary reports on measurements of venus magnetic
+  field.
+\newblock \emph{Science}, 139:\penalty0 909, 1963.
+
+\bibitem[Smith et~al.(1965)Smith, Davis, Coleman, and Sonnet]{smith1965}
+E.J. Smith, L.~Davis, P.J. Coleman, and C.P. Sonnet.
+\newblock Magnetic measurements near venus.
+\newblock \emph{Science}, 70:\penalty0 1571, 1965.
+
+\bibitem[Stanley et~al.(2007)Stanley, Zuber, and Bloxham]{stanleyfluxspot}
+S~Stanley, MT~Zuber, and J~Bloxham.
+\newblock Using reversed magnetic flux spots to determine a planet's inner core
+  size.
+\newblock \emph{Geophysical Research Letters}, 34\penalty0 (19), 2007.
+
+\bibitem[Stanley and Bloxham(2006)]{stanleyandbloxham2006}
+Sabine Stanley and Jeremy Bloxham.
+\newblock Numerical dynamo models of uranus' and neptune's magnetic fields.
+\newblock \emph{Icarus}, 184\penalty0 (2):\penalty0 556--572, 2006.
+
+\bibitem[Stanley and Mohammadi(2008)]{stanleyandmohammadi}
+Sabine Stanley and Aylia Mohammadi.
+\newblock Effects of an outer thin stably stratified layer on planetary
+  dynamos.
+\newblock \emph{Physics of the Earth and Planetary Interiors}, 168\penalty0
+  (3):\penalty0 179--190, 2008.
+
+\bibitem[Stanley et~al.(2005)Stanley, Bloxham, Hutchison, and
+  Zuber]{stanleyandbloxham2005}
+Sabine Stanley, Jeremy Bloxham, William~E Hutchison, and Maria~T Zuber.
+\newblock Thin shell dynamo models consistent with mercury's weak observed
+  magnetic field.
+\newblock \emph{Earth and Planetary Science Letters}, 234\penalty0
+  (1):\penalty0 27--38, 2005.
+
+\bibitem[Stein et~al.(2011)Stein, Finnenk{\"o}tter, Lowman, and
+  Hansen]{stein2011}
+C~Stein, A~Finnenk{\"o}tter, JP~Lowman, and U~Hansen.
+\newblock The pressure-weakening effect in super-earths: Consequences of a
+  decrease in lower mantle viscosity on surface dynamics.
+\newblock \emph{Geophysical Research Letters}, 38\penalty0 (21), 2011.
+
+\bibitem[Stein et~al.(2013)Stein, Lowman, and Hansen]{stein2013}
+C~Stein, JP~Lowman, and U~Hansen.
+\newblock The influence of mantle internal heating on lithospheric mobility:
+  Implications for super-earths.
+\newblock \emph{Earth and Planetary Science Letters}, 361:\penalty0 448--459,
+  2013.
+
+\bibitem[Stevenson(2003)]{stevenson2003}
+David~J Stevenson.
+\newblock Planetary magnetic fields.
+\newblock \emph{Earth and planetary science letters}, 208\penalty0
+  (1):\penalty0 1--11, 2003.
+
+\bibitem[Stevenson(1987)]{stevenson87}
+DJ~Stevenson.
+\newblock Mercury's magnetic field: a thermoelectric dynamo?
+\newblock \emph{Earth and Planetary Science Letters}, 82\penalty0 (1):\penalty0
+  114--120, 1987.
+
+\bibitem[Stewart et~al.(2007)Stewart, Schmidt, van Westrenen, and
+  Liebske]{stewart07}
+Andrew~J Stewart, Max~W Schmidt, Wim van Westrenen, and Christian Liebske.
+\newblock Mars: A new core-crystallization regime.
+\newblock \emph{Science}, 316\penalty0 (5829):\penalty0 1323--1325, 2007.
+
+\bibitem[Takahashi and Matsushima(2006)]{takahashi06}
+Futoshi Takahashi and Masaki Matsushima.
+\newblock Dipolar and non-dipolar dynamos in a thin shell geometry with
+  implications for the magnetic field of mercury.
+\newblock \emph{Geophysical research letters}, 33\penalty0 (10), 2006.
+
+\bibitem[Tarduno et~al.(2010)Tarduno, Cottrell, Watkeys, Hofmann, Doubrovine,
+  Mamajek, Liu, Sibeck, Neukirch, and Usui]{tarduno2010}
+John~A Tarduno, Rory~D Cottrell, Michael~K Watkeys, Axel Hofmann, Pavel~V
+  Doubrovine, Eric~E Mamajek, Dunji Liu, David~G Sibeck, Levi~P Neukirch, and
+  Yoichi Usui.
+\newblock Geodynamo, solar wind, and magnetopause 3.4 to 3.45 billion years
+  ago.
+\newblock \emph{Science}, 327\penalty0 (5970):\penalty0 1238--1240, 2010.
+
+\bibitem[Taylor(1917)]{taylor1917}
+G.~I. Taylor.
+\newblock Motion of solids in fluids when the flow is not irrotational.
+\newblock \emph{Proceedings of the Royal Society of London. Series A}, pages
+  99--113, 1917.
+
+\bibitem[Tsuchiya and Tsuchiya(2011)]{tsuchiya2011}
+Taku Tsuchiya and Jun Tsuchiya.
+\newblock Prediction of a hexagonal sio2 phase affecting stabilities of mgsio3
+  and casio3 at multimegabar pressures.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 108\penalty0
+  (4):\penalty0 1252--1255, 2011.
+
+\bibitem[Valencia and O'Connell(2009)]{valencia2009}
+Diana Valencia and Richard~J O'Connell.
+\newblock Convection scaling and subduction on earth and super-earths.
+\newblock \emph{Earth and Planetary Science Letters}, 286\penalty0
+  (3):\penalty0 492--502, 2009.
+
+\bibitem[Valencia et~al.(2006)Valencia, O'Connell, and Sasselov]{valencia2006}
+Diana Valencia, Richard~J O'Connell, and Dimitar Sasselov.
+\newblock Internal structure of massive terrestrial planets.
+\newblock \emph{Icarus}, 181\penalty0 (2):\penalty0 545--554, 2006.
+
+\bibitem[Vallis(2006)]{Vallis}
+Geoffrey~K. Vallis.
+\newblock \emph{Atmospheric and Oceanic Fluid Dynamics}.
+\newblock Cambridge University Press, 1 edition, 2006.
+
+\bibitem[Van~den Berg et~al.(2010)Van~den Berg, Yuen, Beebe, and
+  Christiansen]{vandenberg2010}
+AP~Van~den Berg, DA~Yuen, GL~Beebe, and MD~Christiansen.
+\newblock The dynamical impact of electronic thermal conductivity on deep
+  mantle convection of exosolar planets.
+\newblock \emph{Physics of the Earth and Planetary Interiors}, 178\penalty0
+  (3):\penalty0 136--154, 2010.
+
+\bibitem[Van~Heck and Tackley(2011)]{vanheck2011}
+HJ~Van~Heck and PJ~Tackley.
+\newblock Plate tectonics on super-earths: Equally or more likely than on
+  earth.
+\newblock \emph{Earth and Planetary Science Letters}, 310\penalty0
+  (3):\penalty0 252--261, 2011.
+
+\bibitem[Wicht(2002)]{wicht2002}
+Johannes Wicht.
+\newblock Inner-core conductivity in numerical dynamo simulations.
+\newblock \emph{Physics of the Earth and Planetary Interiors}, 132\penalty0
+  (4):\penalty0 281--302, 2002.
+
+\bibitem[Wicht et~al.(2008)Wicht, Mandea, Takahashi, Christensen, Matsushima,
+  and Langlais]{wicht2008}
+Johannes Wicht, M~Mandea, F~Takahashi, UR~Christensen, M~Matsushima, and
+  B~Langlais.
+\newblock The origin of mercury’s internal magnetic field.
+\newblock In \emph{Mercury}, pages 79--108. Springer, 2008.
+
+\bibitem[Zapolsky and Salpeter(1969)]{zapolsky1969}
+HS~Zapolsky and EE~Salpeter.
+\newblock The mass-radius relation for cold spheres of low mass.
+\newblock \emph{The Astrophysical Journal}, 158:\penalty0 809, 1969.
+
+\bibitem[Zhang et~al.(1998)Zhang, Jones, and Sarson]{zhang1998}
+K~Zhang, CA~Jones, and GR~Sarson.
+\newblock The dynamical effects of hyperviscosity on numerical geodynamo
+  models.
+\newblock \emph{Studia Geophysica et Geodaetica}, 42\penalty0 (3):\penalty0
+  247--253, 1998.
+
+\end{thebibliography}
