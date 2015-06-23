@@ -8,47 +8,46 @@ A level-1 auxiliary file: Chapter4/chapter4.aux
 A level-1 auxiliary file: Chapter5/chapter5.aux
 A level-1 auxiliary file: Chapter6/chapter6.aux
 A level-1 auxiliary file: Appendix1/appendix1.aux
-A level-1 auxiliary file: Appendix2/appendix2.aux
 The style file: plainnat.bst
 Database file #1: bibliography/bibliography.bib
 You've used 116 entries,
             2773 wiz_defined-function locations,
-            1269 strings with 23416 characters,
-and the built_in function-call counts, 58500 in all, are:
-= -- 5181
-> -- 3722
-< -- 77
-+ -- 1262
-- -- 1144
-* -- 5053
-:= -- 9054
-add.period$ -- 352
+            1268 strings with 23373 characters,
+and the built_in function-call counts, 59105 in all, are:
+= -- 5228
+> -- 3798
+< -- 78
++ -- 1286
+- -- 1168
+* -- 5112
+:= -- 9145
+add.period$ -- 354
 call.type$ -- 116
-change.case$ -- 719
+change.case$ -- 728
 chr.to.int$ -- 114
 cite$ -- 232
-duplicate$ -- 2461
-empty$ -- 4537
-format.name$ -- 1328
-if$ -- 12092
+duplicate$ -- 2478
+empty$ -- 4560
+format.name$ -- 1352
+if$ -- 12225
 int.to.chr$ -- 3
 int.to.str$ -- 1
 missing$ -- 120
 newline$ -- 589
-num.names$ -- 466
-pop$ -- 1318
+num.names$ -- 468
+pop$ -- 1343
 preamble$ -- 1
-purify$ -- 608
+purify$ -- 617
 quote$ -- 0
-skip$ -- 1950
+skip$ -- 1967
 stack$ -- 0
-substring$ -- 2473
-swap$ -- 214
-text.length$ -- 16
+substring$ -- 2480
+swap$ -- 223
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1246
 warning$ -- 0
-while$ -- 534
+while$ -- 536
 width$ -- 0
-write$ -- 1517
+write$ -- 1520
