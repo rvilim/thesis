@@ -2,7 +2,7 @@
 
 \chapter{Dynamo Theory}
 \label{chap:dynamotheory}
-In its most basic form a dynamo is an engine which takes kinetic energy in the form of fluid motion and transforms it into magnetic energy. In many planetary cores this kinetic energy originates from thermal convection driven by the removal of heat from the core, however other sources of energy such as tidally, or precessionally driven flows are possible. The physical mechanism by which this transfer from kinetic to magnetic energy occurs is summarised in the magnetic induction equation (section \ref{sec:magneticinduction}). 
+In its most basic form a dynamo is an engine which takes kinetic energy in the form of fluid motion and transforms it into magnetic energy. In many planetary cores this kinetic energy originates from thermal convection driven by the removal of heat from the core, however other sources of energy such as tidally \citep{cebron2014}, or precessionally driven flows \citep{tilgner2005} are possible. The physical mechanism by which this transfer from kinetic to magnetic energy occurs is summarised in the magnetic induction equation (section \ref{sec:magneticinduction}). 
 
 \section{Maxwells Equations in Planetary Dynamos}
 In order to see how dynamos turn fluid velocities into magnetic fields, we must first start with the basic laws concerning electricity and magnetism. The governing equations for this are Maxwell's equations:
@@ -54,7 +54,7 @@ meaning the term $\mu_{o}\epsilon_{o} \frac{\partial \mbf{E}}{\partial t}$ is ne
 \label{eq:amperes}
 \end{equation}
 
-Next we consider how fields transform between reference frames. We would like to frame our problem in the rotating reference frame of the planetary surface. However in a convecting system each parcel of fluid is moving with respect to the surface at any given time. This means that the quantities present in Maxwell's equations will vary for each parcel of fluid depending on the fluids velocity with respect to the planetary surface reference frame. It is helpful to reformulate these equations in terms of the $\mbf{E}$, $\mbf{B}$, and $\mbf{J}$ fields that are measured in the planetary surface reference frame. We will denote the reference frame following the fluid as $A^\prime$, all quantities measured in that frame will be distinguished with primes as well. Quantities in the reference frame of the planetary surface will be unprimed. 
+Next we consider how fields transform between reference frames. We would like to frame our problem in the rotating reference frame of the planetary surface. However in a convecting system each parcel of fluid is moving with respect to the surface at any given time. This means that the quantities present in Maxwell's equations will vary for each parcel of fluid depending on the fluid's velocity with respect to the planetary surface reference frame. It is helpful to reformulate these equations in terms of the $\mbf{E}$, $\mbf{B}$, and $\mbf{J}$ fields that are measured in the planetary surface reference frame. We will denote the reference frame following the fluid as $A^\prime$, all quantities measured in that frame will be distinguished with primes as well. Quantities in the reference frame of the planetary surface will be unprimed. 
 
 If we reformulate the Lorentz transformations in \citet{jackson1999} into components that are parallel ($\parallel$) and perpendicular ($\perp$) to the motion of the $A^\prime$ frame we get:
 \begin{align}
@@ -73,11 +73,11 @@ where the velocity relative to the planetary surface frame is $\mbf{u}$ and
 \begin{align}
 \gamma=\frac{1}{\sqrt{1-\frac{u^2}{c^2}}}.
 \end{align}
-For $u\ll c$ we can see that $\gamma\sim 1$. If we scaling $E\sim B U$ as before, and scale $\rho u\sim \epsilon_{o} \mu_{o} J L/\tau=J U/c^2$ (equations \ref{eq:faraday}, \ref{eq:gauss}, and \ref{eq:amperes}) these equations reduce to
+For $u\ll c$ we can see that $\gamma\sim 1$. If we use the scaling $E\sim B U$ as before, and scale $\rho u\sim \epsilon_{o} \mu_{o} J L/\tau=J U/c^2$ (equations \ref{eq:faraday}, \ref{eq:gauss}, and \ref{eq:amperes}) these equations reduce to
 \begin{align}
-\mbf{E}^{\prime} = {} & \mbf{E}+\mbf{u}\times\mbf{B} \label{eq:lorenze} \\
-\mbf{B}^{\prime} = {} & \mbf{B} \label{eq:lorenzb} \\
-\mbf{J}^{\prime} = {} & \mbf{J} \label{eq:lorenzj}.
+\mbf{E}^{\prime} = {} & \mbf{E}+\mbf{u}\times\mbf{B} \label{eq:lorentze} \\
+\mbf{B}^{\prime} = {} & \mbf{B} \label{eq:lorentzb} \\
+\mbf{J}^{\prime} = {} & \mbf{J} \label{eq:lorentzj}.
 \end{align}
 We now turn our attention to the Lorentz force. For a continuous charge distribution this is
 \begin{equation}
@@ -85,19 +85,22 @@ We now turn our attention to the Lorentz force. For a continuous charge distribu
 \end{equation}
 however using Maxwell's equations to scale $\mbf{E}$ as 
 \begin{equation}
-E\sim {} \frac{BL}{\tau} \\
+E\sim \frac{BL}{\tau} 
+\label{eq:escale}
 \end{equation}
-and use equation \ref{eq:gauss} to show
-\begin{equation}
-\frac{\rho \mbf{E}}{\mbf{J}\times\mbf{B}}\sim \frac{u^2}{c^2}\ll1
-\end{equation}
-so the Lorenz force becomes $\mbf{F}=\mbf{J}\times\mbf{B}$.
+and use equations \ref{eq:gauss}, \ref{eq:amperes}, and \ref{eq:escale} to show
+\begin{align}
+\frac{\rho \mbf{E}}{\mbf{J}\times\mbf{B}} = {} & \frac{\left| \epsilon_{0} \mbf{E} \nabla \cdot \mbf{E} \right|}{\left|\nabla\times\mbf{B} \times \mbf{B} /\mu_{o}\right|}\\
+\sim {} & \epsilon_{0}\mu_{0} \frac{ E^{2} } { B^{2}  } \\
+\sim {} & \frac{u^2}{c^2}\ll1
+\end{align}
+so the Lorentz force becomes $\mbf{F}=\mbf{J}\times\mbf{B}$.
 
-The final equation we need to consider is Ohm's law (equation \ref{eq:ohmslocal}). This equation is valid for the reference frame of a fluid parcel, not for the planet centred reference frame in which we would like to frame our problem. In the notation of our Lorenz transformations Ohm's law would be written as 
+The final equation we need to consider is Ohm's law (equation \ref{eq:ohmslocal}). This equation is valid for the reference frame of a fluid parcel, not for the planet centred reference frame in which we would like to frame our problem. In the notation of our Lorentz transformations Ohm's law would be written as 
 \begin{equation}
 \mbf{J}^\prime=\sigma \mbf{E}^{\prime}.
 \end{equation}
-We can very easily transform this to our planetary surface frame using the approximate Lorenz transformations we just described (equations \ref{eq:lorenze} and \ref{eq:lorenzj}):
+We can very easily transform this to our planetary surface frame using the approximate Lorentz transformations we just described (equations \ref{eq:lorentze} and \ref{eq:lorentzj}):
 \begin{equation}
 \mbf{J}=\sigma \left(\mbf{E}+\mbf{u}\times\mbf{B}\right).
 \label{eq:ohms}
@@ -105,7 +108,7 @@ We can very easily transform this to our planetary surface frame using the appro
 
 \section{Magnetic Induction}
 \label{sec:magneticinduction}
-In order to see how the transfer of mechanical to magnetic energy occurs we start with Amp\`eres law, Ohm's law, and Faraday's law (equations \ref{eq:amperesfull}, \ref{eq:faraday} and \ref{eq:ohms} respectively). We can put these equations into a more intuitive and convenient form by some simple vector calculus. Taking the curl of Ohm's law (equation \ref{eq:ohms}):
+In order to see how the transfer of mechanical to magnetic energy occurs we start with Faraday's  law, Amp\`eres law,  and Ohm's law (equations \ref{eq:faraday}, \ref{eq:amperes} and \ref{eq:ohms} respectively). We can put these equations into a more intuitive and convenient form by some simple vector calculus. Taking the curl of Ohm's law (equation \ref{eq:ohms}):
 \begin{equation}
 \nabla\times\mbf{J}=\sigma \left(\nabla\times\mbf{E}+\nabla\times\left(\mbf{u}\times\mbf{B}\right)\right).
 \end{equation}
@@ -125,7 +128,7 @@ here we have introduced a quantity known as the magnetic diffusivity ($\eta=1/\s
 \subsection{Interpreting the Magnetic Induction Equation}
 \subsubsection{Frozen Flux Theorem and Connections to Fluid Mechanics}
 \label{sec:frozenflux}
-While the details of the magnetic induction equation (equation \ref{eq:dimensionalmagnetic}) are somewhat opaque, its terms can be interpreted relatively easily. On the right hand side the term $\eta \nabla^{2} \mbf{B}$ is a diffusive term, indicating that magnetic field can diffuse away via ohmic dissipation. The other term, $\nabla\times\left(\mbf{u}\times\mbf{B}\right)$, is less straightforward, but clearly represents interactions between the velocity and magnetic fields. In order for the magnetic field to grow in time, this must be a generation term which is larger than the diffusive term. The relative size of magnetic field generation to diffusion  can be approximately quantified by the magnetic Reynolds number ($\textrm{Re}_{M}$), which is a non-dimensional number found taking the ratio of these two terms:
+While the details of the magnetic induction equation (equation \ref{eq:dimensionalmagnetic}) are somewhat opaque, its terms can be interpreted relatively easily. On the right hand side the term $\eta \nabla^{2} \mbf{B}$ is a diffusive term, indicating that magnetic field can diffuse away via ohmic dissipation. The other term, $\nabla\times\left(\mbf{u}\times\mbf{B}\right)$, is less straightforward, but clearly represents interactions between the velocity and magnetic fields. In order for the magnetic field to grow in time, this must be a generation term which is larger than the diffusive term. The relative size of magnetic field generation to diffusion  can be approximately quantified by the magnetic Reynolds number ($\textrm{Re}_{M}$), which is a non-dimensional number found by taking the ratio of these two terms:
 \begin{equation}
 \textrm{Re}_{M}= \frac{\nabla\times\left(\mbf{u}\times\mbf{B}\right)}{\eta \nabla^{2}\mbf{B}}\sim \frac{UL}{\eta}.
 \end{equation}
@@ -145,9 +148,9 @@ where $D/Dt$ is the advective derivative of fluid mechanics. This equation has t
 
 We can expand one component (we will choose the $x$ component) of equation \ref{eq:mievort} to get
 \begin{equation}
-\frac{D B_{x}}{Dt}=B_{x}\frac{\partial u_{x}}{\partial x}+B_{y}\frac{\partial u_{x}}{\partial y}+B_{z}\frac{\partial u_{x}}{\partial z}
+\frac{D B_{x}}{Dt}=B_{x}\frac{\partial u_{x}}{\partial x}+B_{y}\frac{\partial u_{x}}{\partial y}+B_{z}\frac{\partial u_{x}}{\partial z}.
 \end{equation}
-We can interpret each of these terms as either stretching or tilting magnetic field. The second and third are ``tilting'' terms that tell us that we can increase the magnetic field strength in the $x$-direction by re-orienting magnetic field that is the $y$- or $z$-directions as long as $u_x$ varies in those directions. The first term is the ``stretching'' term in the magnetic induction equation. This tells us that  spatial gradients of $u_x$ in the $x$-direction can stretch the component of the magnetic field which is co-linear with the velocity. 
+We can interpret each of these terms as either stretching or tilting magnetic field. The second and third are ``tilting'' terms that tell us that we can increase the magnetic field strength in the $x$-direction by re-orienting magnetic field that is in the $y$- or $z$-directions as long as $u_x$ varies in those directions. The first term is the ``stretching'' term in the magnetic induction equation. This tells us that  spatial gradients of $u_x$ in the $x$-direction can stretch the component of the magnetic field which is co-linear with the velocity. 
 
 \section{Fluid Flow in Planetary Cores}
 \label{sec:fluidflow}
@@ -158,7 +161,7 @@ The flows in planetary cores are governed by the Navier-Stokes equation modified
 \end{equation}
 here $\rho$ is the fluid density, $p$ is the pressure gradient, $\mbf{T}$ is the deviatoric stress tensor representing shear forces, and $\mbf{F}$ represents body forces.
 
-In the Earth's core there are three body forces which are generally used in geodynamo models. These include the Coriolis and Lorentz forces which represent the apparent force of rotation and magnetic fields respectively, as well as the gravitational force, which allows free convection to occur. Adding these to equation \ref{eq:navierstokesgeneral} gives
+In the Earth's core there are three body forces which are generally used in geodynamo models. These include the Coriolis and Lorentz forces which represent the apparent force of rotation and  magnetic fields respectively, as well as the gravitational force, which allows free convection to occur. Adding these to equation \ref{eq:navierstokesgeneral} gives
 \begin{equation}
 \rho\left(\frac{\partial}{\partial t}+\mbf{u}\cdot\nabla\right)\mbf{u}+2\rho\mbf{\Omega}\times\mbf{u}=-\nabla p +\mbf{J}\times\mbf{B}+\rho \mbf{g}+\nabla\cdot\mbf{T}
 \label{eq:navierstokesgeneralcorlor}
@@ -375,7 +378,7 @@ The second boundary condition in equation \ref{eq:eboundary} can be expanded int
 E_{\theta}^1=E_{\theta}^2\\
 E_{\phi}^1=E_{\phi}^2 .
 \end{align}
-This expression does not account for the movement of either region with respect to the rest frame of the equations of motion. Each part of the physical system we wish to solve (inner core, fluid outer core, and solid mantle layer) can move with respect to the rest frame of \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic}. For this reason we would like to recast our boundary conditions in our planetary surface reference frame using the Lorenz transformation (equation \ref{eq:lorenze}). Our general example using regions 1 and 2 we will assume that region 1 moves with velocity $\mbf{u}^1$ and region two moves with velocity $\mbf{u}^2$:
+This expression does not account for the movement of either region with respect to the rest frame of the equations of motion. Each part of the physical system we wish to solve (inner core, fluid outer core, and solid mantle layer) can move with respect to the rest frame of \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic}. For this reason we would like to recast our boundary conditions in our planetary surface reference frame using the Lorentz transformation (equation \ref{eq:lorentze}). Our general example using regions 1 and 2 we will assume that region 1 moves with velocity $\mbf{u}^1$ and region two moves with velocity $\mbf{u}^2$:
 \begin{align}
 E_{\theta}^1-\left(\mbf{u}^1\times\mbf{B}^2\right)_\theta=E_{\theta}^2-\left(\mbf{u}^2\times\mbf{B}^2\right)_\theta \\
 E_{\phi}^1-\left(\mbf{u}^1\times\mbf{B}^2\right)_\phi=E_{\phi}^2-\left(\mbf{u}^2\times\mbf{B}^2\right)_\phi .
