@@ -171,7 +171,7 @@ where $\mathbf{g}$ is the acceleration due to gravity and $\mbf{\Omega}$ is the 
 \frac{\partial \rho}{\partial t}=\nabla\cdot\left(\rho \mbf{u}\right).
 \label{eq:conservationofmass}
 \end{equation}
-The liquid in the cores of terrestrial planets is mostly iron which is relatively incompressible. To simplify these equations we make use of the Boussinesq approximation which states that density variations can be neglected except when they multiply the acceleration due to gravity. Under this simplification, equation \ref{eq:conservationofmass} becomes
+The liquid in the cores of terrestrial planets is mostly iron which is relatively incompressible. To simplify these equations we make use of one of the simplifications involved in the the Boussinesq approximation, that density variations can be neglected except when they multiply the acceleration due to gravity. Under this approximation, equation \ref{eq:conservationofmass} becomes
 \begin{equation}
 \nabla\cdot\mathbf{u}=0.
 \end{equation}
@@ -215,14 +215,14 @@ If we compare the relative strengths of the Coriolis and Lorentz forces we can d
 \end{align}
 where $B$ represents a characteristic magnetic field strength and we have taken the magnetic diffusion time ($L^{2}/\eta$) as our characteristic timescale.
 
-This balance is important because if we assume an Elsasser number we can get an estimate of magnetic field strength in the core. An Elsasser number of $\mathcal{O}\left(1\right)$ is a common balance to use, implying all other forces are negligible, and results in a magnetic field strength estimate of $B\approx\sqrt{2\Omega \eta \rho \mu_{o}}$. This balance is called magnetostrophic balance and dynamos which have a magnetic field strong enough for the Lorentz force to appear in the leading order force balance are known as strong field dynamos.
+This balance is important because if we assume an Elsasser number we can get an estimate of magnetic field strength in the core. An Elsasser number of $\mathcal{O}\left(1\right)$ is a common balance to use, implying all forces besides the Coriolis and Lorentz forces are negligible, and results in a magnetic field strength estimate of $B\approx\sqrt{2\Omega \eta \rho \mu_{o}}$. This balance is called magnetostrophic balance and dynamos which display this are known as strong field dynamos.
 
 \section{Thermal Equation}
-The buoyancy force in the momentum equation enters as $\Delta\rho \mbf{g}$ and represents any buoyancy due to compositional or thermal effects. In the planetary dynamo community it is common to combine the effects of temperature and composition into a single variable known as co-density. As they are both important effects in the core, ideally the dynamics of composition and temperature should be solved separately. Each have characteristic diffusivities, which differ by three orders of magnitude \citep{Braginsky1995}, the thermal diffusivity being greater than the compositional diffusivity. In this thesis we adopt the common practice of assuming that small scale (and unresolved) turbulence is present, this acts on both quantities equally and results in an effective turbulent diffusivity which is the same for all quantities. This allows us to introduce the co-density $C$, which is a mixture of compositional and thermal differences with a common (large) diffusivity due to unresolved turbulence \citep{Braginsky1995, wicht2008}.
+The buoyancy force in the momentum equation enters as $\Delta\rho \mbf{g}$ and represents any buoyancy due to compositional or thermal effects. In the planetary dynamo community it is common to combine the effects of temperature and composition into a single variable known as co-density. As they are both important effects in the core, ideally the dynamics of composition and temperature should be solved separately. Each have characteristic diffusivities, which differ by three orders of magnitude \citep{Braginsky1995}, the thermal diffusivity being greater than the compositional diffusivity. In this thesis we adopt the common practice of assuming that small scale (and unresolved) turbulence is present, this acts on both quantities equally and results in an effective turbulent diffusivity which is the same for all quantities. This allows us to introduce the co-density $C$, which is a mixture of compositional and thermal differences with a common  diffusivity due to unresolved turbulence \citep{Braginsky1995, wicht2008}.
 
-The evolution of co-density in the Boussinesq approximation is governed by an advection-diffusion equation
+The evolution of co-density in the Boussinesq approximation is governed by an energy equation: 
 \begin{equation}
-\pderiv[1]{C}{t}+\left(\mbf{u}\cdot\nabla\right)C=\kappa \nabla^{2} C + Q\left(\mbf{r}\right)
+\pderiv[1]{C}{t}+\left(\mbf{u}\cdot\nabla\right)C=\kappa \nabla^{2} C + Q\left(r\right).
 \label{eq:fullcodensity}
 \end{equation}
 Here $\kappa$ is the co-density diffusivity and $Q$ represents any co-density sources or sinks within the fluid region. If it is taken to be constant it often corresponds to a volumetric heat source such as radioactivity, or the evolution of the core's composition due to light element release in compositional convection.
@@ -231,13 +231,17 @@ We find it convenient to break up the co-density variable into a radially symmet
 \begin{equation}
 C=C_{o}\left(r\right)+\Theta\left(\mbf{r},t\right).
 \end{equation}
-Substituting this definition into equation \ref{eq:fullcodensity} gives two equations:
+Substituting this definition into equation \ref{eq:fullcodensity} gives
+%\frac{\partial C_{o}}{\partial t}+\frac{\partial \Theta}{\partial t}+\left(\mbf{u}\cdot\nabla\right)C_{o}+\left(\mbf{u}\cdot\nabla\right)\Theta=\kappa\nabla^{2}C_{o}+\kappa\nabla^{2}\Theta +Q\left(r\right)
+\begin{equation}
+\pderiv[1]{C_{o}}{t}+\pderiv[1]{\Theta}{t}+\left(\mbf{u}\cdot\nabla\right)C_{o}+\left(\mbf{u}\cdot\nabla\right)\Theta=\kappa\nabla^{2}C_{o}+\kappa\nabla^{2}\Theta +Q\left(r\right)
+\end{equation}
+This equation can be separated into two equations, one of which involves only $C_{o}$ and $Q$, while the other contains $\Theta$ and $\mbf{u}$:
 \begin{equation}
 \pderiv[1]{\Theta}{t}+\left(\mbf{u}\cdot\nabla\right)\left(\Theta+C_{o}\left(r\right)\right)=\kappa \nabla^{2} \Theta\label{eq:dimensionalcodensity}
 \end{equation}
-and
 \begin{equation}
-\kappa\nabla^{2}C_{o}\left(r\right)=Q\left(r\right).
+\kappa\nabla^{2}C_{o}\left(r\right)=-Q\left(r\right).
 \label{eq:dimensionalbgcodensity}
 \end{equation}
 Here equation \ref{eq:dimensionalcodensity} corresponds to the evolution equation for the co-density perturbation and equation \ref{eq:dimensionalbgcodensity} corresponds to the ODE defining the background co-density state. This formalism has a number of advantages, chief among which is that the background state can satisfy the non-homogeneous boundary conditions this problem poses, leaving the evolution equation with relatively simple boundary conditions.
@@ -248,13 +252,13 @@ This definition of co-density influences our interpretation of the buoyancy term
 \Delta\rho \mbf{g} = \alpha g C \mbf{r},
 \label{eq:dimmombuoyancy}
 \end{equation}
-where $\alpha$ is the co-density expansion coefficient and $\mbf{r}$ is a radial position vector. This assumes that the gravitational acceleration in a planetary core is directed radially and varies linearly with radius (a result easily derivable from Gauss' law). Substituting our definition of co-density into equation \ref{eq:dimmombuoyancy} gives:
+where $\alpha$ is the co-density expansion coefficient and $\mbf{r}$ is a radial position vector. This assumes that the gravitational acceleration in a planetary core is directed radially and varies linearly with radius (a result easily derivable from Gauss's law). Substituting our definition of co-density into equation \ref{eq:dimensionalmomentumgeneralbuoyancy} gives:
 \begin{equation}
 \rho_{o}\left(\frac{\partial}{\partial t}+\mbf{u}\cdot\nabla\right)\mbf{u}+2\rho_{o}\mbf{\Omega}\times\mbf{u}=-\nabla p +\mbf{J}\times\mbf{B}+\alpha g r C_{o}\left(r\right)\mbf{\hat{r}}+\alpha g r \Theta\left(\mbf{r},t\right)\mbf{\hat{r}}+\rho_{o}\nu\nabla^{2}\mbf{u}.
 \end{equation}
 We can then define a modified pressure $\widetilde{p}$ such that
 \begin{equation}
-\nabla\widetilde{p}=\nabla p+\alpha g r C_{o}\left(r\right)\mbf{\hat{r}}
+\nabla\widetilde{p}=\nabla p-\alpha g r C_{o}\left(r\right)\mbf{\hat{r}}
 \end{equation}
 which simplifies our momentum equation to
 \begin{equation}
@@ -276,21 +280,21 @@ When we apply these non-dimensionalisations, equations \ref{eq:dimensionalmagnet
 \begin{align}
 Ro\left(\frac{\partial}{\partial t}+\mbf{u}\cdot\nabla\right)\mbf{u}+\mbf{\hat{z}}\times\mbf{u}=& {} -\nabla p+\mbf{J}\times\mbf{B}+Ra\Theta\mbf{r}+E\nabla^{2}\mbf{u} \label{eq:nondimmomentum}\\
 \frac{\partial \Theta}{\partial t}+\mbf{u}\cdot\nabla C =& {}q_{\kappa}\nabla^{2}\Theta \label{eq:nondimcodensity}\\
-\frac{\partial \mbf{B}}{\partial t}=& {} \nabla\times\left(\mbf{u}\times\mbf{B}\right)\label{eq:nondimmagnetic}+\nabla^{2}\mbf{B}
+\frac{\partial \mbf{B}}{\partial t}=& {} \nabla\times\left(\mbf{u}\times\mbf{B}\right)\label{eq:nondimmagnetic}+\nabla^{2}\mbf{B}.
 \end{align}
 The nondimensional parameters in equations (\ref{eq:nondimmomentum}) to (\ref{eq:nondimmagnetic}) are the Rayleigh number ($Ra$), the magnetic Rossby number ($Ro$), the magnetic Prandtl number ($q_{\kappa}$), and the Ekman number ($E$). These are given by:
 \begin{align}
 Ra=& {}\frac{\alpha g_{o}h_{C}r_{o}^{2}}{2\Omega\eta} \label{eq:rayleigh}\\
 Ro=& {}\frac{\eta}{2\Omega r_{o}^{2}}\\
 q_{k}=& {}\frac{\kappa}{\eta}\\
-E=& {}\frac{\nu}{2\Omega r_{o}^2} \label{eq:ekman}
+E=& {}\frac{\nu}{2\Omega r_{o}^2} \label{eq:ekman}.
 \end{align}
 The Rayleigh number defined in equation \ref{eq:rayleigh} is a modified Rayleigh number that differs in form from the Rayleigh number used in mantle convection. In non-rotating convection it is useful to define the Rayleigh number as the ratio between buoyancy and viscous forces, as viscosity is often the force that buoyancy must overcome in order for convection to occur. In rotating core convection, viscosity is typically very small, and buoyancy must overcome the ``stiffness'' of the fluid imposed by Taylor-Proudman theorem (equation \ref{eq:taylorproudman}) in order for convection to occur. For this reason we define the Rayliegh number as the ratio between the buoyancy force and the Coriolis force. As the Ekman number (equation \ref{eq:ekman}) is the ratio of the viscous force to the Coriolis force, a more conventional Rayleigh number can be recovered by dividing the modified Rayleigh number by the Ekman number.
 
 
 \section{The Local Rossby Number}
 \label{sec:rol}
-One factor which makes dynamos difficult to understand is the large number of control parameters that are required to specify a solution to the governing equations. This is particularly troubling because the properties of a dynamo are dependent on the values of these control parameters. Unfortunately, for numerical reasons, dynamo models must be run in a parameter regime for which most of the control parameters are not realistic.
+One factor which makes dynamos difficult to understand is the large number of control parameters that are required to specify a solution to the governing equations. This is particularly troubling because the properties of a dynamo are dependent on the values of these control parameters. Unfortunately, for numerical reasons, dynamo models must be run in a parameter regime for which most of the control parameters are not appropriate for modelling planetary cores.
 
 \citet{christensen06scaling} developed a scaling law concerning planetary dynamos which has proved to be useful in the prediction of the bulk properties of a dynamo as a function of its control parameters. The Rossby number is normally defined as the ratio of the inertial force to the Coriolis force, from equation \ref{eq:navierstokesgeneralcorlor} this is
 \begin{align*}
@@ -302,7 +306,7 @@ Ro&=\frac{\left|\rho \mbf{u}\cdot\nabla\mbf{u}\right|}{\left|2\rho\mbf{\Omega}\t
 \label{eq:rollength}
 \bar{\ell}_{u}=\frac{4Ro_m^2}{\left(1-r_{io}\right)^2}\frac{\sum l\left\langle\mbf{u}_{l}\cdot\mbf{u}_{l}\right\rangle}{2E_{kin}}
 \end{equation}
-Where $E_{kin}$ is the kinetic energy, defined as
+where $E_{kin}$ is the kinetic energy, defined as
 \begin{equation}
 E_{kin}=\frac{4 Ro_m^2}{\left(1-r_{io}\right)^{5}}\frac{1}{2}\int_{V}\left(\mbf{u}\cdot\mbf{u}\right)dV
 \end{equation}
@@ -339,7 +343,7 @@ $p$ is the convective power density. Assuming the background state does not chan
 \begin{equation}
 p=\frac{3}{2}\frac{(1-r_{io})^2}{\left(1-r_{io}^3\right)} \left[(1-f_{i})\left(\frac{1}{(1-r_{io})^2}-\frac{3}{5}\frac{\left(1-r_{io}^5\right)}{\left(1-r_{io}^3\right)}\right)+f_{i} \left(\frac{3}{5}\frac{\left(1-r_{io}^5\right)}{\left(1-r_{io}^3\right)}-\frac{r_{io}^2}{(1-r_{io})^2}\right)\right]Ra_Q
 \end{equation}
-Where $f_i$ is the fraction of the total buoyancy flux injected at the inner core and $Ra_Q$ is a Rayleigh number based on advected buoyancy flux \citep{aubert2009}.
+where $f_i$ is the fraction of the total buoyancy flux injected at the inner core and $Ra_Q$ is a Rayleigh number based on advected buoyancy flux \citep{aubert2009}.
 
 \section{Numerically Simulating the Dynamo}
 As equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic} have no general analytic solutions we must turn to numerical methods in order to obtained detailed insight into magnetic field generation in planets. To do this we use the Kuang-Bloxham \citep{kuangandbloxham1997, kuangandbloxham1999} and mMoSST \citep{jiang2008} numerical dynamo models. Both of these numerical models solve equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic}, and differ only in the numerical methods they use. 
@@ -349,17 +353,17 @@ The most important difference between the Kuang-Bloxham model and the mMoSST mod
 \subsection{Boundary Conditions}
 Equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic} require boundary conditions to specify unique solutions. Both the Kuang-Bloxham and mMoSST numerical dynamo models are capable of a range of commonly used boundary conditions for each field.
 \subsubsection{Velocity Field}
-All models presented in this work the require the radial component of the velocity field to be zero at the core-mantle, and inner core boundaries. These conditions correspond to  impenetrable conditions, which is appropriate for a solid barrier such as the mantle or the inner core. The tangential velocity requires a more subtle approach. In the Earth, a no-slip  condition is the correct velocity boundary at both the inner and outer core as the velocity of the fluid must match the velocity of the solid boundary it meets. 
+All models presented in this work require the radial component of the velocity field to be zero at the core-mantle, and inner core boundaries. These conditions correspond to  impenetrable conditions, which is appropriate for a solid barrier such as the mantle or the inner core. The tangential velocity requires a more subtle approach. In the Earth, a no-slip  condition is the correct velocity boundary at both the inner and outer core as the velocity of the fluid must match the velocity of the solid boundary it meets. 
 
 Computational restrictions require numerical dynamo models to operate in a parameter regime that is very far removed from the regime that is relevant to planetary cores. In particular, the Ekman number used in dynamo models $\mathcal{O}\left( 10^{-5} \right)$ is commonly $10$ orders of magnitude larger than the Ekman number of the Earth's core $\mathcal{O}\left(10^{-15}\right)$. One effect of a larger than realistic Ekman number is that numerical models overestimate the size of the visco-rotational boundary layers known as Ekman layers. The thickness of these Ekman layers is:
 
 \begin{equation}
 d\sim \sqrt{2E} r_{o},
 \end{equation}
-which corresponds to $15$km at $E=10^{-5}$, but only $15$cm at $E=10^{-15}$. To avoid over representing the size of the Ekman boundary layers and their associated secondary circulation \citep{gubbins2007}, some authors \citep{kuangandbloxham1999} use stress free boundary conditions, which eliminates the viscous coupling between the core and the mantle as well as the associated secondary circulation. The Kuang-Bloxham and mMoSST models are capable of using both stress free and no-slip boundary conditions. 
+which corresponds to $15$km at $E=10^{-5}$, but only $15$cm at $E=10^{-15}$. To avoid over representing the size of the Ekman boundary layers and their associated secondary circulation \citep{gubbins2007}, some authors \citep{kuangandbloxham1999} use free slip boundary conditions, which eliminates the viscous coupling between the core and the mantle as well as the associated secondary circulation. The Kuang-Bloxham and mMoSST models are capable of using both stress free and no-slip boundary conditions. 
 
 \subsubsection{Thermal Field}
-The thermal boundary conditions commonly used in numerical dynamo models can be grouped into two general categories: fixed flux and fixed temperature boundary conditions. In fixed temperature boundary conditions the co-density is set to a value at the boundary, giving Dirichlet boundary conditions. In fixed flux boundary conditions the derivative of the co-density is set at the boundary, corresponding to a Neumann boundary condition. While many studies use fixed temperature boundary conditions for simplicity reasons, there is some evidence \citep{sakuraba2009} that fixed flux boundary conditions generate more Earth-like magnetic fields as the parameter regime becomes more realistic.
+The thermal boundary conditions commonly used in numerical dynamo models can be grouped into two general categories: fixed flux and fixed temperature boundary conditions. In fixed temperature boundary conditions the co-density is set to a value at the boundary, giving Dirichlet boundary conditions. In fixed flux boundary conditions the derivative of the co-density is set at the boundary, corresponding to a Neumann boundary condition. While many studies use fixed temperature boundary conditions for simplicity reasons, there is some evidence \citep{sakuraba2009} that fixed flux boundary conditions generate more Earth-like magnetic fields as the parameter regime becomes closer to Earth.
 
 \subsubsection{Magnetic Field}
 Both the Kaung-Bloxham and mMoSST dynamo models are able to simulate a variety of inner core and solid mantle types. In the models considered within this work, the inner core and mantle layers have a finite, non-zero conductivity. We also allow the inner core and mantle to rotate, which makes the boundary conditions more complicated as they involve an inductive term due to the relative motion of the solid layer (inner core or the mantle) and the fluid outer core.
@@ -369,7 +373,7 @@ If we consider the boundary between two regions (region 1 and region 2) the boun
  \hat{n}\cdot\mbf{B}^1 &= \hat{n}\cdot\mbf{B}^2 \label{eq:bboundary} \\
  \hat{n}\times\mbf{E}^1 &= \hat{n}\times\mbf{E}^2 \label{eq:eboundary}
 \end{align}
-where $\hat{n}$ is the unit vector normal to the boundary and a superscript denotes the region number. As planetary cores are very close to spherical, we will take this to be the radial unit vector $\hat{r}$. Beginning with equation \ref{eq:bboundary} it is easy to show that
+where $\hat{n}$ is the unit vector normal to the boundary and a superscript denotes the region number. These imply that the magnetic field is continuous across the boundary in the radial direction while the electric field is continuous across the boundary in the horizontal direction. As planetary cores are very close to spherical, we will take this to be the radial unit vector $\hat{r}$. Beginning with equation \ref{eq:bboundary} it is easy to show that
 \begin{equation}
 B_r^1=B_r^2.
 \end{equation}
@@ -378,7 +382,7 @@ The second boundary condition in equation \ref{eq:eboundary} can be expanded int
 E_{\theta}^1=E_{\theta}^2\\
 E_{\phi}^1=E_{\phi}^2 .
 \end{align}
-This expression does not account for the movement of either region with respect to the rest frame of the equations of motion. Each part of the physical system we wish to solve (inner core, fluid outer core, and solid mantle layer) can move with respect to the rest frame of \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic}. For this reason we would like to recast our boundary conditions in our planetary surface reference frame using the Lorentz transformation (equation \ref{eq:lorentze}). Our general example using regions 1 and 2 we will assume that region 1 moves with velocity $\mbf{u}^1$ and region two moves with velocity $\mbf{u}^2$:
+This expression does not account for the movement of either region with respect to the rest frame of the equations of motion. Each part of the physical system we wish to solve (inner core, fluid outer core, and solid mantle layer) can move with respect to the rest frame of \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic}. For this reason we would like to recast our boundary conditions in our planetary surface reference frame using the Lorentz transformation (equation \ref{eq:lorentze}). In the case of our general example using regions 1 and 2, we will assume that region 1 moves with velocity $\mbf{u}^1$ and region two moves with velocity $\mbf{u}^2$:
 \begin{align}
 E_{\theta}^1-\left(\mbf{u}^1\times\mbf{B}^2\right)_\theta=E_{\theta}^2-\left(\mbf{u}^2\times\mbf{B}^2\right)_\theta \\
 E_{\phi}^1-\left(\mbf{u}^1\times\mbf{B}^2\right)_\phi=E_{\phi}^2-\left(\mbf{u}^2\times\mbf{B}^2\right)_\phi .
@@ -398,7 +402,7 @@ Our $\llbracket \rrbracket$ operator can now refer to any boundary in our dynamo
 \subsection{Numerical Methods}
 
 \subsubsection{Discritisation}
-Both the Kuang-Bloxham and mMoSST numerical dynamo model approximate equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic} with a mixed spectral-finite difference method. In both models the angular parts of the equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic} are expanded in a truncated spherical harmonic series. For equations \ref{eq:nondimcodensity} and \ref{eq:nondimmagnetic} both models use a compact finite difference method \citep{lele1992} for the treatment of derivatives with respect to r. The radial grid points are specified at the extremas of Chebyshev polynomials (rescaled from $[-1, 1]$ to $[r_i, r_o]$). As Chebyshev polynomials group their extremas near the boundaries, this concentrates the gridpoints near the boundaries to resolve thin boundary layers. The Kuang-Bloxham and mMoSST models differ in their treatment of the radial derivatives in the momentum equation. In the Kuang-Bloxham model, the momentum equation is treated spectrally in the radial direction using Chebyshev polynomials as a spectral basis function. This follow many other well established dynamo models (e.g. \citet{wicht2002}) and provides good convergence properties at the expense of parallelization. In the mMoSST model, the radial derivatives in the momentum equation are treated using the same compact finite difference schemes as used by the magnetic and co-density equations.
+Both the Kuang-Bloxham and mMoSST numerical dynamo model approximate equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic} with a mixed spectral-finite difference method. In both models the angular parts of the equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic} are expanded in a truncated spherical harmonic series. For equations \ref{eq:nondimcodensity} and \ref{eq:nondimmagnetic} both models use a compact finite difference method for the treatment of derivatives with respect to r. Compact finite differences are an implicit approach to the calculation of finite differences which allows for greater accuracy (see \citet{lele1992}) The radial grid points are specified at the extremas of Chebyshev polynomials (rescaled from $[-1, 1]$ to $[r_i, r_o]$). As Chebyshev polynomials group their extremas near the boundaries, this concentrates the gridpoints near the boundaries to resolve thin boundary layers. The Kuang-Bloxham and mMoSST models differ in their treatment of the radial derivatives in the momentum equation. In the Kuang-Bloxham model, the momentum equation is treated spectrally in the radial direction using Chebyshev polynomials as a spectral basis function. This follows many other well established dynamo models (e.g. \citet{wicht2002}) and provides good convergence properties at the expense of parallelization. In the mMoSST model, the radial derivatives in the momentum equation are treated using the same compact finite difference schemes as used by the magnetic and co-density equations.
 
 \subsubsection{Time stepping}
 The Kuang-Bloxham and mMoSST models use the same schemes to time step equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic}. In both models the linear terms (i.e. the Coriolis force, and diffusive terms) are time stepped using a Crank-Nicolson method \citep{crank1947}. The Crank-Nicolson method is an extremely popular,  unconditionally stable implicit time stepping method. An implicit method such as Crank-Nicolson is preferential to explicit time stepping methods for the linear terms because the Courant number for diffusive terms is proportional to $\Delta x^{-2}$ in explicit methods, where $\Delta x$ is the spatial grid spacing. In order to maintain the necessary condition for numerical stability as specified by the CFL condition \citep{courant1967} the time step would have to scale as $\Delta x ^{2}$ making high resolution simulations very computationally demanding. 
@@ -419,7 +423,7 @@ y_{n+1}  = y_{n} + \Delta t\left( \frac{23}{12} f(t_{n}, y_{n}) - \frac43 f(t_{n
 \end{equation}
 The $y_{n+1}$ generated by equation \ref{eq:adamsbashforth} is known as the predictor for the variable $y$. Next, we calculate $f(t_{n+1},y_{n+1})$ using this predictor and substitute it into equation \ref{eq:adamsmoulton} generating a second $y_{n+1}$, this is known as the corrector for $y$.
 
-The Adams Bashforth-Adams Moulton method is advantageous over an Adams-Bashforth method because it allows the dynamo model to take larger time steps while maintaining numerical stability. It has the disadvantage of a higher computational cost as $f(t_{n+1},y_{n+1})$ must be evaluated twice for each timestep. 
+The Adams Bashforth-Adams Moulton method is advantageous over an Adams-Bashforth method because it allows the dynamo model to take larger time steps while maintaining numerical stability. It has the disadvantage of a higher computational cost as $f(t_{n+1},y_{n+1})$ must be evaluated for both the predictor and the corrector step, yielding two function evaluations per timestep. 
 
 \subsubsection{Scale Dependent Diffusivities}
 The Kuang-Bloxham model uses scale dependent diffusivities, also known as hyperdiffusivites with the magnetic field, velocity field and co-density perturbation in order to work at more strongly supercritical Rayleigh numbers than would otherwise be possible. Our viscous, co-density and magnetic diffusivities vary with spherical harmonic degree $l$ (for $l\geq l_{o}$) as:
@@ -449,7 +453,7 @@ If we assume a perfect electrical insulator ($\sigma=0$) outside the core then O
 \begin{equation}
 \nabla\times\mbf{B}=0.
 \end{equation}
-This means that the magnetic field in free space is a conservative vector field and hence it can be represented as the gradient of a scalar
+This means that the magnetic field in an electrical insulator is a conservative vector field and hence it can be represented as the gradient of a scalar
 \begin{equation}
 \mbf{B}=-\nabla \Phi.
 \end{equation}
