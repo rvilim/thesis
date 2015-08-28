@@ -144,7 +144,7 @@ In the limit of infinite electrical conductivity (or zero magnetic diffusivity) 
 \frac{D \mbf{B}}{D t}=& {}\mbf{B}\cdot\nabla \mbf{u}
 \label{eq:mievort}
 \end{align}
-where $D/Dt$ is the advective derivative of fluid mechanics. This equation has the same form as the well known baratropic vorticity equation of atmospheric dynamics. A consequence of that equation is that the vorticity is frozen into the fluid \citep{Vallis}. This is also true of magnetic fields in the magnetic induction equation with an infinite electrical conductivity (zero magnetic diffusivity). In magnetohydrodynamics, this is widely known as the ``frozen flux'' theorem.
+where $D/Dt$ is the advective derivative of fluid mechanics. This equation has the same form as the well known barotropic vorticity equation of atmospheric dynamics. A consequence of that equation is that the vorticity is frozen into the fluid \citep{Vallis}. This is also true of magnetic fields in the magnetic induction equation with an infinite electrical conductivity (zero magnetic diffusivity). In magnetohydrodynamics, this is widely known as the ``frozen flux'' theorem.
 
 We can expand one component (we will choose the $x$ component) of equation \ref{eq:mievort} to get
 \begin{equation}
@@ -161,7 +161,7 @@ The flows in planetary cores are governed by the Navier-Stokes equation modified
 \end{equation}
 here $\rho$ is the fluid density, $p$ is the pressure gradient, $\mbf{T}$ is the deviatoric stress tensor representing shear forces, and $\mbf{F}$ represents body forces.
 
-In the Earth's core there are three body forces which are generally used in geodynamo models. These include the Coriolis and Lorentz forces which represent the apparent force of rotation and  magnetic fields respectively, as well as the gravitational force, which allows free convection to occur. Adding these to equation \ref{eq:navierstokesgeneral} gives
+In Earth's core there are three body forces which are generally used in geodynamo models. These include the Coriolis and Lorentz forces which represent the apparent force of rotation and  magnetic fields respectively, as well as the gravitational force, which allows free convection to occur. Adding these to equation \ref{eq:navierstokesgeneral} gives
 \begin{equation}
 \rho\left(\frac{\partial}{\partial t}+\mbf{u}\cdot\nabla\right)\mbf{u}+2\rho\mbf{\Omega}\times\mbf{u}=-\nabla p +\mbf{J}\times\mbf{B}+\rho \mbf{g}+\nabla\cdot\mbf{T}
 \label{eq:navierstokesgeneralcorlor}
@@ -225,7 +225,7 @@ The evolution of co-density in the Boussinesq approximation is governed by an en
 \pderiv[1]{C}{t}+\left(\mbf{u}\cdot\nabla\right)C=\kappa \nabla^{2} C + Q\left(r\right).
 \label{eq:fullcodensity}
 \end{equation}
-Here $\kappa$ is the co-density diffusivity and $Q$ represents any co-density sources or sinks within the fluid region. If it is taken to be constant it often corresponds to a volumetric heat source such as radioactivity, or the evolution of the core's composition due to light element release in compositional convection.
+Here $\kappa$ is the co-density diffusivity and $Q$ represents any co-density sources or sinks within the fluid region. If it is taken to be constant, it often corresponds to a volumetric heat source such as radioactivity, or the evolution of the core's composition due to light element release in compositional convection.
  
 We find it convenient to break up the co-density variable into a radially symmetric background state ($C_{o}$) and a perturbation ($\Theta$) which contains the dynamics of the co-density:
 \begin{equation}
@@ -269,7 +269,7 @@ which simplifies our momentum equation to
 \begin{figure}
 	\centering
 	\noindent\includegraphics[width=.6\linewidth]{Chapter2/figures/CutawayEarth.png}
-	\caption{A cutaway view of the structure of the Earth.}
+	\caption{A cutaway view of the structure of Earth.}
 	\label{fig:CutawayEarth}
 \end{figure}
 We wish to solve the momentum and co-density equations (equations \ref{eq:dimensionalcodensity}, \ref{eq:dimensionalbgcodensity}, and \ref{eq:dimensionalmomentum} ) in a spherical shell. This corresponds to the core of a planet with a solid inner core of radius $r_i$, and a rigid upper boundary of radius $r_o$ (see figure \ref{fig:CutawayEarth}). 
@@ -289,7 +289,7 @@ Ro=& {}\frac{\eta}{2\Omega r_{o}^{2}}\\
 q_{k}=& {}\frac{\kappa}{\eta}\\
 E=& {}\frac{\nu}{2\Omega r_{o}^2} \label{eq:ekman}.
 \end{align}
-The Rayleigh number defined in equation \ref{eq:rayleigh} is a modified Rayleigh number that differs in form from the Rayleigh number used in mantle convection. In non-rotating convection it is useful to define the Rayleigh number as the ratio between buoyancy and viscous forces, as viscosity is often the force that buoyancy must overcome in order for convection to occur. In rotating core convection, viscosity is typically very small, and buoyancy must overcome the ``stiffness'' of the fluid imposed by Taylor-Proudman theorem (equation \ref{eq:taylorproudman}) in order for convection to occur. For this reason we define the Rayliegh number as the ratio between the buoyancy force and the Coriolis force. As the Ekman number (equation \ref{eq:ekman}) is the ratio of the viscous force to the Coriolis force, a more conventional Rayleigh number can be recovered by dividing the modified Rayleigh number by the Ekman number.
+The Rayleigh number defined in equation \ref{eq:rayleigh} is a modified Rayleigh number that differs in form from the Rayleigh number used in mantle convection. In non-rotating convection it is useful to define the Rayleigh number as the ratio between buoyancy and viscous forces, as viscosity is often the force that buoyancy must overcome in order for convection to occur. In rotating core convection, viscosity is typically very small, and buoyancy must overcome the ``stiffness'' of the fluid imposed by Taylor-Proudman theorem (equation \ref{eq:taylorproudman}) in order for convection to occur. For this reason we define the Rayleigh number as the ratio between the buoyancy force and the Coriolis force. As the Ekman number (equation \ref{eq:ekman}) is the ratio of the viscous force to the Coriolis force, a more conventional Rayleigh number can be recovered by dividing the modified Rayleigh number by the Ekman number.
 
 
 \section{The Local Rossby Number}
@@ -328,18 +328,18 @@ which is the time average ratio of the r.m.s. amplitude of the dipole field to t
 \begin{figure}
 	\centering
 	\noindent\includegraphics[width=.5\linewidth]{Chapter2/figures/fdip.pdf}
-	\caption{The dipole dominance ($f_{dip}$) of the observable magnetic field as a function of the local Rossby number. Here $f_{dip}$ is defined as the time average ratio of the r.m.s. amplitude of the dipole field to the r.m.s. amplitude of the field in the first 12 degrees. The Ekman numbers here are in the variables of \citet{christensen06scaling}, they can be converted to the Ekman numbers in this work by multiplying them by a factor of $0.21125$. This figure is reproduced from \citet{christensen06scaling} where it is figure 3.}
+	\caption{The dipole dominance ($f_{dip}$) of the observable magnetic field as a function of the local Rossby number. Here $f_{dip}$ is defined as the time average ratio of the r.m.s. amplitude of the dipole field to the r.m.s. amplitude of the field in the first 12 degrees. The Ekman numbers here are in the variables of \citet{christensen06scaling}; they can be converted to the Ekman numbers in this work by multiplying them by a factor of $0.21125$. This figure is reproduced from \citet{christensen06scaling} where it is figure 3.}
 	\label{fig:rolfdip}
 \end{figure}
 
-Once the local Rossby number is defined, a natural extension is to apply it to the planets of our solar system. The definition of equation \ref{eq:rol} requires a knowledge the characteristic fluid velocity and scale in the fluid outer core. This is very unconstrained for even the Earth, and less well constrained for other planets of our solar system. An alternative approach is to construct scaling laws which relate the control parameters of the dynamo to the local Rossby number. The control parameters depend on the physical properties of the planet (e.g. diffusivities, rotation rates etc.) which are known more accurately than the dynamical properties (i.e. the scale of convection).
+Once the local Rossby number is defined, a natural extension is to apply it to the planets of our solar system. The definition of equation \ref{eq:rol} requires a knowledge the characteristic fluid velocity and scale in the fluid outer core. This is very unconstrained for even Earth, and less well constrained for other planets of our solar system. An alternative approach is to construct scaling laws which relate the control parameters of the dynamo to the local Rossby number. The control parameters depend on the physical properties of the planet (e.g. diffusivities, rotation rates etc.) which are known more accurately than the dynamical properties (i.e. the scale of convection).
 
-Several studies have constructed scaling laws which relate the dynamo control parameters to the local Rossby number \citep{christensen06scaling,OlsonandChristensen2006,aubert2009}. The most general is from \citet{aubert2009}, if it is cast into the non-dimensionalisation used in this work it can be written as
+Several studies have constructed scaling laws which relate the dynamo control parameters to the local Rossby number \citep{christensen06scaling,OlsonandChristensen2006,aubert2009}. The most general is from \citet{aubert2009}; if it is cast into the non-dimensionalisation used in this work it can be written as
 \begin{equation}
 Ro_{l}=0.674\frac{1+r_{io}}{\left(1-r_{io}\right)^{-0.64}}p^{0.48}E^{-0.32}q_{\kappa}^{-0.19}.
 \label{eq:rolscaling}
 \end{equation}
-$p$ is the convective power density. Assuming the background state does not change the convective power density can be written as
+$p$ is the convective power density. Assuming the background state does not change, the convective power density can be written as
 \begin{equation}
 p=\frac{3}{2}\frac{(1-r_{io})^2}{\left(1-r_{io}^3\right)} \left[(1-f_{i})\left(\frac{1}{(1-r_{io})^2}-\frac{3}{5}\frac{\left(1-r_{io}^5\right)}{\left(1-r_{io}^3\right)}\right)+f_{i} \left(\frac{3}{5}\frac{\left(1-r_{io}^5\right)}{\left(1-r_{io}^3\right)}-\frac{r_{io}^2}{(1-r_{io})^2}\right)\right]Ra_Q
 \end{equation}
@@ -386,9 +386,9 @@ The most important difference between the Kuang-Bloxham model and the mMoSST mod
 \subsection{Boundary Conditions}
 Equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic} require boundary conditions to specify unique solutions. Both the Kuang-Bloxham and mMoSST numerical dynamo models are capable of a range of commonly used boundary conditions for each field.
 \subsubsection{Velocity Field}
-All models presented in this work require the radial component of the velocity field to be zero at the core-mantle, and inner core boundaries. These conditions correspond to  impenetrable conditions, which is appropriate for a solid barrier such as the mantle or the inner core. The tangential velocity requires a more subtle approach. In the Earth, a no-slip  condition is the correct velocity boundary at both the inner and outer core as the velocity of the fluid must match the velocity of the solid boundary it meets. 
+All models presented in this work require the radial component of the velocity field to be zero at the core-mantle, and inner core boundaries. These conditions correspond to  impenetrable conditions, which is appropriate for a solid barrier such as the mantle or the inner core. The tangential velocity requires a more subtle approach. In Earth, a no-slip  condition is the correct velocity boundary at both the inner and outer core as the velocity of the fluid must match the velocity of the solid boundary it meets. 
 
-Computational restrictions require numerical dynamo models to operate in a parameter regime that is very far removed from the regime that is relevant to planetary cores. In particular, the Ekman number used in dynamo models $\mathcal{O}\left( 10^{-5} \right)$ is commonly $10$ orders of magnitude larger than the Ekman number of the Earth's core $\mathcal{O}\left(10^{-15}\right)$. One effect of a larger than realistic Ekman number is that numerical models overestimate the size of the visco-rotational boundary layers known as Ekman layers. The thickness of these Ekman layers is:
+Computational restrictions require numerical dynamo models to operate in a parameter regime that is very far removed from the regime that is relevant to planetary cores. In particular, the Ekman number used in dynamo models $\mathcal{O}\left( 10^{-5} \right)$ is commonly $10$ orders of magnitude larger than the Ekman number of Earth's core $\mathcal{O}\left(10^{-15}\right)$. One effect of a larger than realistic Ekman number is that numerical models overestimate the size of the visco-rotational boundary layers known as Ekman layers. The thickness of these Ekman layers is:
 
 \begin{equation}
 d\sim \sqrt{2E} r_{o},
@@ -399,7 +399,7 @@ which corresponds to $15$km at $E=10^{-5}$, but only $15$cm at $E=10^{-15}$. To 
 The thermal boundary conditions commonly used in numerical dynamo models can be grouped into two general categories: fixed flux and fixed temperature boundary conditions. In fixed temperature boundary conditions the co-density is set to a value at the boundary, giving Dirichlet boundary conditions. In fixed flux boundary conditions the derivative of the co-density is set at the boundary, corresponding to a Neumann boundary condition. While many studies use fixed temperature boundary conditions for simplicity reasons, there is some evidence \citep{sakuraba2009} that fixed flux boundary conditions generate more Earth-like magnetic fields as the parameter regime becomes closer to Earth.
 
 \subsubsection{Magnetic Field}
-Both the Kaung-Bloxham and mMoSST dynamo models are able to simulate a variety of inner core and solid mantle types. In the models considered within this work, the inner core and mantle layers have a finite, non-zero conductivity. We also allow the inner core and mantle to rotate, which makes the boundary conditions more complicated as they involve an inductive term due to the relative motion of the solid layer (inner core or the mantle) and the fluid outer core.
+Both the Kaung-Bloxham and mMoSST dynamo models are able to simulate a variety of inner core and solid mantle types. In the models considered within this work, the inner core and mantle layers have a finite, non-zero conductivity. We also allow the inner core and mantle to rotate relative to the rotating, fluid outer core frame of reference, which makes the boundary conditions more complicated as they involve an inductive term due to the relative motion of the solid layer (inner core or the mantle) and the fluid outer core.
 
 If we consider the boundary between two regions (region 1 and region 2) the boundary conditions supplied by Maxwell's equations are:
 \begin{align}
