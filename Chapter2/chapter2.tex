@@ -171,11 +171,11 @@ where $\mathbf{g}$ is the acceleration due to gravity and $\mbf{\Omega}$ is the 
 \frac{\partial \rho}{\partial t}=\nabla\cdot\left(\rho \mbf{u}\right).
 \label{eq:conservationofmass}
 \end{equation}
-The liquid in the cores of terrestrial planets is mostly iron which is relatively incompressible, and therefore does not exhibit large density variations. A na{\"i}ve approximation would be to neglect all density variations in our fluid. This would be too rash, as density variations are the cause of thermal and compositional convection, which certainly exists within many planetary cores. To simplify these equations we make use the Boussinesq approximation, which states that density variations can be neglected except when they multiply the acceleration due to gravity. This approximation requires that the typical density variations from a reference density $\rho_0$ are small compared to the reference density ($\Delta \rho\ll \rho_0$). Using values in Earth from PREM \citep{prem} we get an average outer core density as $\rho_0=10.9 \textrm{g}/\textrm{cm}^3$ and a density variation between the top and the bottom of the fluid outer core of $2.26 \textrm{g}/\textrm{cm}^3$. Since $2.26\textrm{g}/\textrm{cm}^3\ll 10.9\textrm{g}/\textrm{cm}^3$ we could conclude that the Boussinesq approximation is valid in the Earth's core.
+The liquid in the cores of terrestrial planets is mostly iron which is relatively incompressible, and therefore does not exhibit large density variations. A na{\"i}ve approximation would be to neglect all density variations in our fluid. This would be too rash, as density variations are the cause of thermal and compositional convection, which certainly exists within many planetary cores. To simplify these equations we make use the Boussinesq approximation, which states that density variations can be neglected except when they multiply the acceleration due to gravity. This approximation requires that the typical density variations from a reference density $\rho_0$ are small compared to the reference density ($\Delta \rho\ll \rho_0$). Using values in Earth from PREM \citep{prem} we get an average outer core density of $\rho_0=10.9 \textrm{g}/\textrm{cm}^3$ and a density variation between the top and the bottom of the fluid outer core of $2.26 \textrm{g}/\textrm{cm}^3$. Since $2.26\textrm{g}/\textrm{cm}^3\ll 10.9\textrm{g}/\textrm{cm}^3$ we could conclude that the Boussinesq approximation is valid in the Earth's core.
 
 In terrestrial planets with much larger masses than Earth this approximation is often still valid, despite their significantly larger cores and pressures. Using the interior models of \citet{valencia2007} for GJ 876d, a terrestrial planet with mass $7.5 M_\oplus$ we find that even in the most extreme examples (a completely rocky planet with 80\% of its mass in the core) $\Delta \rho/\rho_{0}\approx 0.5$. This implies that the Boussinesq approximation is valid across a wide range of terrestrial planets. Gas and ice planets are a different case, as gasses and ices are relativel compressible, the Boussinesq approximation is in general not valid within them, and different equations of motion must be used.
 
-Under this approximation, equation \ref{eq:conservationofmass} becomes
+If we apply the Boussinesq approximation to our equations of motion, equation \ref{eq:conservationofmass} becomes
 \begin{equation}
 \nabla\cdot\mathbf{u}=0.
 \end{equation}
@@ -238,7 +238,7 @@ C=C_{o}\left(r\right)+\Theta\left(\mbf{r},t\right).
 Substituting this definition into equation \ref{eq:fullcodensity} gives
 %\frac{\partial C_{o}}{\partial t}+\frac{\partial \Theta}{\partial t}+\left(\mbf{u}\cdot\nabla\right)C_{o}+\left(\mbf{u}\cdot\nabla\right)\Theta=\kappa\nabla^{2}C_{o}+\kappa\nabla^{2}\Theta +Q\left(r\right)
 \begin{equation}
-\pderiv[1]{C_{o}}{t}+\pderiv[1]{\Theta}{t}+\left(\mbf{u}\cdot\nabla\right)C_{o}+\left(\mbf{u}\cdot\nabla\right)\Theta=\kappa\nabla^{2}C_{o}+\kappa\nabla^{2}\Theta +Q\left(r\right)
+\pderiv[1]{\Theta}{t}+\left(\mbf{u}\cdot\nabla\right)C_{o}+\left(\mbf{u}\cdot\nabla\right)\Theta=\kappa\nabla^{2}C_{o}+\kappa\nabla^{2}\Theta +Q\left(r\right)
 \end{equation}
 This equation can be separated into two equations, one of which involves only $C_{o}$ and $Q$, while the other contains $\Theta$ and $\mbf{u}$:
 \begin{equation}
@@ -392,26 +392,26 @@ Equations \ref{eq:nondimmomentum}-\ref{eq:nondimmagnetic} require boundary condi
 \subsubsection{Velocity Field}
 All models presented in this work require the radial component of the velocity field to be zero at the core-mantle, and inner core boundaries. These conditions correspond to  impenetrable conditions, which is appropriate for a solid barrier such as the mantle or the inner core. The tangential velocity requires a more subtle approach. In Earth, a no-slip  condition is the correct velocity boundary at both the inner and outer core as the velocity of the fluid must match the velocity of the solid boundary it meets. 
 
-Computational restrictions require numerical dynamo models to operate in a parameter regime that is very far removed from the regime that is relevant to planetary cores. In particular, the Ekman number used in dynamo models $\mathcal{O}\left( 10^{-5} \right)$ is commonly $10$ orders of magnitude larger than the Ekman number of Earth's core $\mathcal{O}\left(10^{-15}\right)$. Table \ref{tab:ekman} shows approximate Ekman numbers for the the planets of our solar system. These Ekman number are extremely uncertain, mostly because of the viscosity. These estimates use the molecular viscosity of core fluids. It is not clear whether this is the most representative choice, or whether turbulent viscosities may be a better choice. In that case the Ekman numbers will be several orders of magnitude higher than the values reported here
+Computational restrictions require numerical dynamo models to operate in a parameter regime that is very far removed from the regime that is relevant to planetary cores. In particular, the Ekman number used in dynamo models $\mathcal{O}\left( 10^{-5} \right)$ is commonly $10$ orders of magnitude larger than the Ekman number of Earth's core $\mathcal{O}\left(10^{-15}\right)$. Table \ref{tab:ekman} shows approximate Ekman numbers for the the planets of our solar system. These Ekman number are extremely uncertain, mostly because of the viscosity. These estimates use the molecular viscosity of core fluids. It is not clear whether this is the most representative choice, or whether turbulent viscosities may be a better choice. In that case the Ekman numbers will be several orders of magnitude higher than the values reported here.
 \begin{table}[]
-\label{tab:ekman}
 \centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{lc}
-Planet       & \multicolumn{1}{l}{Ekman Number} \\
-Mercury      & $\mathcal{O})\left(10^{-12}\right)$                              \\
-Venus        & $\mathcal{O})\left(10^{-13}\right)$                              \\
-Earth        & $\mathcal{O})\left(10^{-15}\right)$                              \\
-Moon         & $\mathcal{O})\left(10^{-12}\right)$                              \\
-Mars         & $\mathcal{O})\left(10^{-14}\right)$                              \\
-Jupiter      & $\mathcal{O})\left(10^{-18}\right)$                              \\
-Ganymede     & $\mathcal{O})\left(10^{-14}\right)$                              \\
-UranusSaturn & $\mathcal{O})\left(10^{-17}\right)$                              \\
-Uranus       & $\mathcal{O})\left(10^{-16}\right)$                              \\
-Neptune      & $\mathcal{O})\left(10^{-16}\right)$                             
+\caption{The Ekman numbers for the planets, and some moons of our solar system, from \citet{OlsonandChristensen2006}}
+\label{tab:ekman}
+\begin{tabular}{l|c}
+Planet       & \multicolumn{1}{l}{Ekman Number} \\ \hline
+Mercury      & $10^{-12}$                              \\
+Venus        & $10^{-13}$                              \\
+Earth        & $10^{-15}$                              \\
+Moon         & $10^{-12}$                              \\
+Mars         & $10^{-14}$                              \\
+Jupiter      & $10^{-18}$                              \\
+Ganymede     & $10^{-14}$                              \\
+Saturn & $10^{-17}$                              \\
+Uranus       & $10^{-16}$                              \\
+Neptune      & $10^{-16}$                             
 \end{tabular}
 \end{table}
+
 One effect of a larger than realistic Ekman number is that numerical models overestimate the size of the visco-rotational boundary layers known as Ekman layers. The thickness of these Ekman layers is:
 
 \begin{equation}
