@@ -71,13 +71,14 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{amsmath}
 \usepackage{cool}
-\usepackage{hyperref}
 \usepackage{natbib}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{lineno}
-\usepackage{ stmaryrd }
+\usepackage{stmaryrd }
 \usepackage{multirow}
+\usepackage{hyperref}
+
 %% The standard packages `geometry' and `setspace' are already loaded by
 %% `ut-thesis' -- see their documentation for details of the features
 %% they provide.  In particular, you may use the \geometry command here
@@ -166,9 +167,7 @@
 
 %% This generates an "acknowledgements" section, if needed
 %% (uncomment to have it appear in the document).
-%\begin{acknowledgements}
-%% *** Put your Acknowledgements here. ***
-%\end{acknowledgements}
+\include{Acknowledgements/acknowledgements}
 
 %% This generates the Table of Contents (on a separate page).
 \tableofcontents
